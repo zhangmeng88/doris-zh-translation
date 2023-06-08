@@ -4,7 +4,7 @@ DORIS.... DDDOOORRRIIISSS
 
 DORIS.... DDDOOORRRIIISSS
 
-DDDDDDDDDDDDDDD....
+EEEEEEEEEEEEEEEEEEEEEE....
 
 This documentation describes how to use the API and other related technology. 
 
