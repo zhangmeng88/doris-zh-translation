@@ -1,12 +1,6 @@
 ﻿# DORIS Documentation
 
-DORIS.... DDDOOORRRIIISSS
-
-DORIS.... DDDOOORRRIIISSS
-
-FFFFFFFFFFFFFFFFFFFFFFF....
-
-GGGGGGGGGGGGG....GGGGGGGGGGG
+CLEAR
 
 This documentation describes how to use the API and other related technology. 
 
