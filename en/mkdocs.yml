@@ -26,5 +26,9 @@ nav:
     - DORIS Documentation: 
       - General Information: 'index.md'
       - DorisWeb (Web Version): 'doris-web.md'
-      - DorisUI (Batch processing): 'doris-ui.md'
-      - Using DORIS from ICD API: 'doris-api.md'
+      - Doris UI: 
+        - General Information: 'doris-ui.md'
+        - Supported File Formats:
+          - JSON Format: 'json-format.md'
+          - Tabular Format: 'csv-excel-format.md'
+      - Using DORIS from ICD-API: 'doris-api.md'
