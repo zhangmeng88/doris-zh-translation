@@ -1,4 +1,4 @@
-site_name: ICD-API Homepage
+site_name: DORIS Homepage
 
 theme:
     name: null
@@ -23,22 +23,8 @@ markdown_extensions:
   - footnotes
 
 nav:
-    - ICD-API Documentation: 
-      - Release Notes: 'ReleaseNotes.md'
-      - API Documentation (version 2.x): 'APIDoc-Version2.md'
-      - API Reference (version 2.x): 'APIDoc-Version2/#icd-api-reference'
-      - ICD API Authentication: 'API-Authentication.md'
-      - Supported Classification Versions: 'SupportedClassifications.md'
-      - Samples Github Repository: 'APIDoc-Version2/#icd-api-github-repository'
-    - Embedded Classification Tool:
-      - Embedded Classification Tool: 'icd11ect-1.5.md'
-      - Embedded Coding Tool: 'icd11ect-1.5-EmbeddedCodingTool.md'
-      - Embedded Browser: 'icd11ect-1.5-EmbeddedBrowser.md'
-      - Advanced settings: 'icd11ect-1.5-AdvancedSettings.md'
-    - Installing the ICD-API locally: 
-      - General Information on Installing the API locally: 'ICDAPI-LocalDeployment.md'
-      - Installing ICD-API as a Docker container: 'ICDAPI-DockerContainer.md'
-      - Installing ICD-API as a Windows Service: 'ICDAPI-WindowsService.md'
-      - Installing ICD-API as a systemd Service in Linux: 'ICDAPI-SystemdService.md'
-    - OLD Version Documentation:
-      - API Documentation (version 1): 'APIDoc-Version1.md'
+    - DORIS Documentation: 
+      - General Information: 'index.md'
+      - DorisWeb (Web Version): 'doris-web.md'
+      - DorisUI (Batch processing): 'doris-ui.md'
+      - Using DORIS from ICD API: 'doris-api.md'
