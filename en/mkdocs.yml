@@ -30,6 +30,6 @@ nav:
         - General Information: 'doris-ui.md'
         - Supported File Formats:
           - JSON Format: 'json-format.md'
-          - Tabular Format: 'csv-excel-format.md'
+          - Tabular Format (excel, csv): 'csv-excel-format.md'
         - Using Doris UI: 'using-doris-ui.md'
       - Using DORIS from ICD-API: 'doris-api.md'
