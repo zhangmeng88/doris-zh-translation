@@ -16,6 +16,7 @@ theme:
     sticky_navigation: true
     collapse_navigation: true
 
+
 plugins:
     - search
 
@@ -25,11 +26,12 @@ markdown_extensions:
 nav:
     - DORIS Documentation: 
       - General Information: 'index.md'
-      - DorisWeb (Web Version): 'doris-web.md'
-      - Doris UI: 
+      - DorisWeb (Web Version): 
+        - General Information: 'doris-web.md'
+      - Doris UI (Desktop version): 
         - General Information: 'doris-ui.md'
+        - Using Doris UI: 'using-doris-ui.md'
         - Supported File Formats:
           - JSON Format: 'json-format.md'
           - Tabular Format (excel, csv): 'csv-excel-format.md'
-        - Using Doris UI: 'using-doris-ui.md'
       - Using DORIS from ICD-API: 'doris-api.md'
