@@ -13,5 +13,12 @@ You may download the DORIS Desktop version from this link:
 ## File formats
 DORIS supports the following file formats:
 
+### JSON format
 - The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md)
-- The Excel and CSV formats are tabular representation of the certificate and output of DORIS. The format is described in [Tabular Format](csv-excel-format.md)
+
+### Tabular format (Excel and CSV)
+- The Excel and CSV formats are tabular representation of the certificate and output of DORIS. The format specification can be found 
+here: [Tabular Format Specification](csv-excel-format.md)
+
+## Using DORIS UI
+...

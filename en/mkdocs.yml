@@ -11,7 +11,7 @@ theme:
     hljs_languages: []
     include_homepage_in_sidebar: true
     prev_next_buttons_location: bottom
-    navigation_depth: 4
+    navigation_depth: 3
     titles_only: false
     sticky_navigation: true
     collapse_navigation: true
@@ -24,14 +24,10 @@ markdown_extensions:
   - footnotes
 
 nav:
-    - DORIS Documentation: 
-      - General Information: 'index.md'
-      - DorisWeb (Web Version): 
-        - General Information: 'doris-web.md'
-      - Doris UI (Desktop version): 
-        - General Information: 'doris-ui.md'
-        - Using Doris UI: 'using-doris-ui.md'
-        - Supported File Formats:
-          - JSON Format: 'json-format.md'
-          - Tabular Format (excel, csv): 'csv-excel-format.md'
-      - Using DORIS from ICD-API: 'doris-api.md'
+    - General Information: 'index.md'
+    - Web Version: 
+        - Doris Web: 'doris-web.md'
+    - Desktop version: 
+        - DORIS UI: 'doris-ui.md'
+    - Using DORIS from other software: 
+        - Using DORIS from ICD-API: 'doris-api.md'
