@@ -8,17 +8,27 @@ Doris UI is a desktop software that allows batch processing of death certificate
 
 You may download the DORIS Desktop version from this link:
 
-- [Download DorisUI v0.4.0.0 prerelease 4](https://icdcdn.who.int/doris/DorisUI_0.4.0.0_x64.msix)
+- [Download DorisUI v0.6.0.0 release candidate](https://icdcdn.who.int/doris/DorisUI_0.6.0.0_x64-rc1.msix)
 
-## File formats
-DORIS supports the following file formats:
-
-### JSON format
-- The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md)
-
-### Tabular format (Excel and CSV)
-- The Excel and CSV formats are tabular representation of the certificate and output of DORIS. The format specification can be found 
-here: [Tabular Format Specification](csv-excel-format.md)
+Installation is done by double clicking on the downloaded file and following the instructions on screen.
 
 ## Using DORIS UI
-...
+
+The tool requires a file with death certificates to be processed. It supports the following file  formats:
+
+### JSON format
+- The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
+
+### Tabular format (Excel and CSV)
+- The Excel and CSV formats are tabular representation of the certificate and output of DORIS. The format specification and sample files can be found 
+here: [Tabular Format Specification](csv-excel-format.md)
+
+### Loading the file and processing
+
+TBA
+
+### Checking the output file
+
+TBA
+
+
