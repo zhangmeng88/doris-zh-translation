@@ -115,7 +115,10 @@ Note: CauseOfDeath fields can be provided either as code, URI or text. we have i
 | `CauseOfDeathTextPart2` | _input_ | `string` | Cause field Part2. Textual conditions. |
 | `CauseOfDeathCodePart2` | _input_ | `string` | Cause field Part2. Classification codes comma separated. Its allowed to use post coordination, i.e. “Stem A & Ext 1 / Stem B”. |
 | `CauseOfDeathURIPart2` | _input_ | `string` | Cause field Part2. Classification URI comma separated. Its allowed to use post coordination, i.e. “Stem A & Ext 1 / Stem B”. |
+| `SurgeryWasPerformed` | _input_ | `integer` | 0: No, - 1: Yes, -  9: Unknown |
+| `MannerOfDeath` | _input_ | `integer` | 0: Disease, - 1: Assault, - 2: "Could not be determined", - 3: Accident, - 4: "Legal intervention", - 5: "Pending investigation", - 6: "Intentional self harm", - 7: War, -  9: Unknown |
 | `MaternalDeathWasPregnant` | _input_ | `integer` | 0: No, - 1: Yes, -  9: Unknown |
+| `MaternalDeathTimeFromPregnancy` | _input_ | `integer` | 0: "At time of death", - 1: "Within 42 days before the death", - 2: "Between 43 days up to 1 year before death", - 3: "One year or more before death", -  9: Unknown |
 | `MaternalDeathPregnancyContribute` | _input_ | `integer` |  0: No, - 1: Yes,  - 9: Unknown  |
 | `UnderlyingCauseOfDeath` | _input_ | `string` | Manually assigned underlying cause of death provided as code (optional)|
 | `UnderlyingCauseOfDeathURI` | _input_ | `string` | Manually assigned underlying cause of death provided as a linearization URI (optional) | 
