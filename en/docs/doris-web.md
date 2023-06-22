@@ -8,21 +8,31 @@ Provide the required information about the deceased individual.
 
 **Administrative Data**: Fill in the following details - Sex, Date of Birth, Date of Death, and Estimated Age (in years, months, weeks, days, hours, minutes, or seconds), or leave it unknown.
 
+![Administrativedatascreenshot picture ](img/administrativedatascreenshot.png)
+
 In Frame A, the **Medical Data** fields are associated with the ICD-11 coding tool, allowing users to search by term or by ICD-11 code.
 
 Part 1: Cause(s) of Death - Complete Line a, b, c, and d along with their respective time intervals. 
 
 Part 2:  Indicate any other significant conditions contributing to the death, along with their corresponding time intervals. In this section, time intervals can be assigned separately for each reported condition. To do so, users need to search for the condition by term or ICD-11 code using the coding tool then assign the relevant time interval after selecting the condition.
 
+![FrameAmedicaldatascreenshotpicture ](img/FrameAmedicaldatascreenshot.png)
+
 Frame B consists of the following fields:
 
 **Details of Surgery**: Provide any relevant information about surgeries performed on the deceased by answering the questions.
 
+![surgeryscreenshotpicture ](img/surgeryscreenshot.png)
+
 **Manner of Death**: Specify the manner in which the death occurred (e.g., natural, accident, suicide, homicide).
+
+![Mannerofdeathscreenshotpicture ](img/Mannerofdeathscreenshot.png)
 
 **Place of occurrence** of the external cause: specify the place where the external cause (e.g., accident, injury) occurred. This information is essential for accurately documenting the circumstances surrounding the death.
 
 **Fetal or Infant Death**: Fill in the needed information on multiple pregnancy, stillbirth specifying the number of hours survived if applicable, birth weight, number of completed weekd of prgnancy, age of the mother and if the death was perinatal, conditions of mother that affected the fetous should be specified. 
+
+![fetalinfantdeathscreenshotpicture ](img/fetalinfantdeathscreenshot.png)
 
 For women: 
 
@@ -31,6 +41,8 @@ For women:
 **Time from Pregnancy**: If the deceased individual was pregnant, provide the time from pregnancy.
 
 **Contribution of Pregnancy to Death**: Determine if the pregnancy played a role in the woman's death. 
+
+![pregnancyscreenshotpicture ](img/pregnancyscreenshot.png)
 
 To demonstrate the functionality of the DORIS web version, an **examples form** key provides a few sample examples to showcase how the web version operates. Users can refer to these examples to understand how to use the web version effectively.
 
