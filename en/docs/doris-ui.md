@@ -1,4 +1,4 @@
-# DORIS UI (Desktop Version for batch processing) 
+# DORIS User Interface (Desktop Version for batch processing) 
 
 ![DORIS UI Screenshot](img/dorisuiscreen.png)
 
