@@ -6,11 +6,29 @@ DORIS Web Version is a web-based application accessible through a web browser. I
 
 Provide the required information about the deceased individual.
 
-**Administrative Data**: Fill in the following details - Gender, Date of Birth, Date of Death, and Estimated Age (in years, months, weeks, days, hours, minutes, or seconds), or leave it unknown.
+**Administrative Data**: Fill in the following details - Sex, Date of Birth, Date of Death, and Estimated Age (in years, months, weeks, days, hours, minutes, or seconds), or leave it unknown.
 
-In Frame A, the **Medical Data** fields consist of the following sections:
+In Frame A, the **Medical Data** fields are associated with the ICD-11 coding tool, allowing users to search by term or by ICD-11 code.
 
-Part 1: Specify the Cause(s) of Death by completing Line a, b, c, and d, along with their respective time intervals.
+Part 1: Cause(s) of Death - Complete Line a, b, c, and d along with their respective time intervals. 
 
-Part 2: Indicate any other significant conditions contributing to the death, along with their corresponding time intervals. In this section, you can assign time intervals separately for each reported condition. To do so, click on the assigned code for each condition and then input the relevant time interval.
+Part 2:  Indicate any other significant conditions contributing to the death, along with their corresponding time intervals. In this section, time intervals can be assigned separately for each reported condition. To do so, users need to search for the condition by term or ICD-11 code using the coding tool then assign the relevant time interval after selecting the condition.
+
+Frame B consists of the following fields:
+
+**Details of Surgery**: Provide any relevant information about surgeries performed on the deceased by answering the questions.
+
+**Manner of Death**: Specify the manner in which the death occurred (e.g., natural, accident, suicide, homicide).
+
+**Place of occurrence** of the external cause: specify the place where the external cause (e.g., accident, injury) occurred. This information is essential for accurately documenting the circumstances surrounding the death.
+
+**Fetal or Infant Death**: Fill in the needed information on multiple pregnancy, stillbirth specifying the number of hours survived if applicable, birth weight, number of completed weekd of prgnancy, age of the mother and if the death was perinatal, conditions of mother that affected the fetous should be specified. 
+
+For women: 
+
+**Pregnancy Status**: Was the deceased pregnant at the time of death? Choose the appropriate option. Select the relevant response (yes/no).
+
+**Time from Pregnancy**: If the deceased individual was pregnant, provide the time from pregnancy.
+
+**Contribution of Pregnancy to Death**: Determine if the pregnancy played a role in the woman's death. Select the relevant response (yes/no).
 
