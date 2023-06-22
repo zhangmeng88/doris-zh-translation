@@ -26,9 +26,15 @@ Frame B consists of the following fields:
 
 For women: 
 
-**Pregnancy Status**: Was the deceased pregnant at the time of death? Choose the appropriate option. Select the relevant response (yes/no).
+**Pregnancy Status**: Was the deceased pregnant at the time of death? Choose the appropriate option. 
 
 **Time from Pregnancy**: If the deceased individual was pregnant, provide the time from pregnancy.
 
-**Contribution of Pregnancy to Death**: Determine if the pregnancy played a role in the woman's death. Select the relevant response (yes/no).
+**Contribution of Pregnancy to Death**: Determine if the pregnancy played a role in the woman's death. 
+
+To demonstrate the functionality of the DORIS web version, an **examples form** key provides a few sample examples to showcase how the web version operates. Users can refer to these examples to understand how to use the web version effectively.
+
+Additionally, the **clear content** key was introduced. By clicking on this key, users can initiate a fresh death certificate with all the fields cleared, allowing them to start with a new entry without any existing data.
+
+To compute the required Underlying Cause of Death (UCOD), users should simply click on the '**Compute**' button. This action will generate the necessary information based on the entered data, helping users select the underlying cause of death.
 
