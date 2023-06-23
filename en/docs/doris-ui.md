@@ -29,29 +29,17 @@ The tool's flexibility in handling different input modes and its processing spee
 
 ![textcodemodessupportedpicture ](img/textcodemodessupported.png)     
 
+# Supported modes and file formats
+
+In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the information on the death certificates and with the digital mortality rulebase which operates in the background, the tool will determine the underlying cause of death. By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic determination of the underlying cause of death.
+
 ## Supported file formats - Excel, CSV, and JSON.
 
 By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures compatibility and ease of use for users working with different data sources. On the DORIS homepage, users can find the template for the input files that are supported by the DORIS tool. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By accessing the DORIS homepage, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
 
 **Excel files** are widely used for data management and analysis, while **CSV** (Comma-Separated Values) and **JSON** (JavaScript Object Notation) formats offer flexibility in exchanging and storing structured data. DORIS's compatibility with these formats enables users to import and analyze death certificates without the need for extensive data conversion or manipulation.
 
-![fileformatsupportedpagepicture ](img/fileformatsupported.png)          
-
-## Using DORIS User Interface Desktop Version - Step-by-Step Instructions
-
-In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the information on the death certificates and f the ICD mortality rulebase, which operates in the background, to determine the underlying cause of death. By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic determination of the underlying cause of death.
-
-Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the format you need and proceed to download it onto your computer.
-
-Once the download is complete, open the downloaded file. It is important to fill in the cause of death information accurately, ensuring that you do not modify the format or change the order of the columns. Maintain the original structure of the file.
-
-Launch the DORIS tool on your desktop. Look for the option to load a file for processing and select the file you just filled in with the cause of death information.
-
-After selecting the file, click on the processing button to initiate the file processing procedure. The tool will begin processing the file, and once it completes the task, the output file will be automatically saved in the same location as the input file.
-
-By following these steps, you can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
-
-It supports the following file  formats:
+![fileformatsupportedpagepicture ](img/fileformatsupported.png)    
 
 ### JSON format
 - The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
@@ -60,9 +48,17 @@ It supports the following file  formats:
 - The Excel and CSV formats are tabular representation of the certificate and output of DORIS. The format specification and sample files can be found 
 here: [Tabular Format Specification](csv-excel-format.md)
 
-### Loading the file and processing
+### Using DORIS User Interface Desktop Version - Loading the file and processing
 
-TBA
+1. Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the needed format and proceed to download it onto the local computer.
+
+2. Once the download is complete, open the downloaded file. It is important to fill in the cause of death information accurately, ensuring not to modify the format or change the order of the columns. Maintain the original structure of the file.
+
+3. Launch the DORIS tool on local desktop. Look for the **select key** to load a file for processing and select the file that was filled in with the cause of death information.
+
+4. After selecting the file, click on the **process key** to initiate the file processing procedure. Once the tool completes the task, the output file will be automatically saved in the same location as the input file. and the processing time will be shown on the screen along with a sneak peak of the output file and the color coded columns 
+
+By following these steps, users can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
 
 ### Checking the output file
 
