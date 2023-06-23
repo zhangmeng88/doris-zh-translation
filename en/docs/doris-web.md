@@ -2,7 +2,7 @@
 
 DORIS Web Version is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for cause of death selection. The web version can be accessed at: https://icd.who.int/doris/tool
 
-![DORIS Web screenshot picture ](img/doriswebscreenshot.png)
+![DORIS Web screenshot picture ](img/doriswebscreenshotreduced.png)
 
 Provide the required information about the deceased individual.
 
