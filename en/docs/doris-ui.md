@@ -14,9 +14,15 @@ On the DORIS homepage, users can find the template for the input file that is su
 <p> 4 - Follow the provided instructions to download the DORIS tool onto local desktops or computer systems. The installation process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
 <p> By following these steps, users will be able to successfully download the DORIS User Interface Desktop Version and initiate batch processing activities.
 
+  ![DORISUIreducedpicture ](img/DORISUIreduced.png)
+
 ## Using DORIS UI
 
-The tool requires a file with death certificates to be processed. It supports the following file  formats:
+The tool requires a file with death certificates to be processed. 
+
+
+
+It supports the following file  formats:
 
 ### JSON format
 - The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
