@@ -24,7 +24,9 @@ markdown_extensions:
   - footnotes
 
 nav:
-    - General Information: 'index.md'
+    - DORIS:
+        - General Information: 'index.md'
+        - Mortality digital end-to-end solution: 'icd11mde2e.md'
     - Web Version: 
         - Doris Web: 'doris-web.md'
     - Desktop version: 
