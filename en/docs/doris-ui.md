@@ -6,18 +6,17 @@ DORIS's analysis capabilities play a crucial role in extracting valuable insight
 
 DORIS's ability to handle thousands of death certificates in text and code mode and support multiple file formats offers immense benefits to users. It streamlines data analysis processes, promotes interoperability with various data sources, and empowers users to gain meaningful insights from extensive datasets, ultimately contributing to improved public health outcomes and informed decision-making.
 
-![DORIShomepagepicture ](img/DORIShomepage.png)
-
 ## Download and Installation
 
-1. Go to the DORIS homepage by visiting the website icd.who.int/doris.
-2. On the homepage, locate and click on the "More information and Download" option. This will redirect users to the page containing instructions for using the DORIS Offline Tool.
-3. Under for the section titled "Download and Installation" users will find the necessary information and resources to download the DORIS tool. The DORIS tool for batch processing can be downloaded from: [Desktop Version](https://icdcdn.who.int/doris/DorisUI_0.6.0.0_x64-rc1.msix)
-4. Follow the provided instructions to download the DORIS tool onto local desktops or computer systems. The installation process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
+The DORIS tool for batch processing can be downloaded from: [Desktop Version](https://icdcdn.who.int/doris/DorisUI_0.6.0.0_x64-rc1.msix)
 
-By following these steps, users will be able to successfully download the DORIS User Interface Desktop Version and initiate batch processing activities.
+DORIS installation and launch is a quick and very simple process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
 
 ![dorisuipicture](img/dorisui.png)
+
+# Supported modes and file formats
+
+In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the information on the death certificates and with the digital mortality rulebase which operates in the background, the tool will determine the underlying cause of death. By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic determination of the underlying cause of death.
 
 ## Supported input files - Text and code mode.
 
@@ -29,10 +28,6 @@ The tool's flexibility in handling different input modes and its processing spee
 
 ![textcodemodessupportedpicture ](img/textcodemodessupported.png)     
 
-# Supported modes and file formats
-
-In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the information on the death certificates and with the digital mortality rulebase which operates in the background, the tool will determine the underlying cause of death. By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic determination of the underlying cause of death.
-
 ## Supported file formats - Excel, CSV, and JSON.
 
 By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures compatibility and ease of use for users working with different data sources. On the DORIS homepage, users can find the template for the input files that are supported by the DORIS tool. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By accessing the DORIS homepage, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
@@ -41,12 +36,12 @@ By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures com
 
 ![fileformatsupportedpagepicture ](img/fileformatsupported.png)    
 
-### JSON format
-- The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
-
 ### Tabular format (Excel and CSV)
 - The Excel and CSV formats are tabular representation of the certificate and output of DORIS. The format specification and sample files can be found 
 here: [Tabular Format Specification](csv-excel-format.md)
+
+### JSON format
+- The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
 
 ### Using DORIS User Interface Desktop Version - Loading the file and processing
 
