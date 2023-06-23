@@ -9,12 +9,12 @@ On the DORIS homepage, users can find the template for the input file that is su
 ## Download and Installation
 
 1 - Go to the DORIS homepage by visiting the website icd.who.int/doris.
-<p> 2 - On the homepage, locate and click on the "More information and Download" option. This will redirect users to the page containing instructions for using the DORIS Offline Tool.
-<p> 3 - Under for the section titled "Download and Installation" users will find the necessary information and resources to download the DORIS tool. The DORIS tool for batch processing can be downloaded from: [Desktop Version](https://icdcdn.who.int/doris/DorisUI_0.6.0.0_x64-rc1.msix)  
-<p> 4 - Follow the provided instructions to download the DORIS tool onto local desktops or computer systems. The installation process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
-<p> By following these steps, users will be able to successfully download the DORIS User Interface Desktop Version and initiate batch processing activities.
+2 - On the homepage, locate and click on the "More information and Download" option. This will redirect users to the page containing instructions for using the DORIS Offline Tool.
+3 - Under for the section titled "Download and Installation" users will find the necessary information and resources to download the DORIS tool. The DORIS tool for batch processing can be downloaded from: [Desktop Version](https://icdcdn.who.int/doris/DorisUI_0.6.0.0_x64-rc1.msix)  
+4 - Follow the provided instructions to download the DORIS tool onto local desktops or computer systems. The installation process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
+By following these steps, users will be able to successfully download the DORIS User Interface Desktop Version and initiate batch processing activities.
 
-![DORISUIpicture ](img/DORISUI.png)
+![dorisuipicture](img/dorisui.png)
 
 ## Supported file formats
 
@@ -25,11 +25,6 @@ On the DORIS homepage, users can find the template for the input file that is su
 ## Using DORIS User Interface Desktop Version - Step-by-Step Instructions
 
 In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the information on the death certificates and f the ICD mortality rulebase, which operates in the background, to determine the underlying cause of death. By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic determination of the underlying cause of death.
-
-
-
-
-
 
 Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the format you need and proceed to download it onto your computer.
 
