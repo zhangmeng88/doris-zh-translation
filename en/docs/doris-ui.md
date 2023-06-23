@@ -27,7 +27,7 @@ The tool's processing capabilities are highly efficient. It can handle a large v
 
 The tool's flexibility in handling different input modes and its processing speed make it a reliable and efficient solution for analyzing and extracting meaningful information from death certificates. Whether dealing with text-based or coded certificates, users can rely on the tool to swiftly process large quantities of data, assisting them to make informed decisions in a timely manner.
 
-![textcodemodessupportedpicture ](img/textcodemodessupported.png)
+![textcodemodessupportedpicture ](img/textcodemodessupported.png)     
 
 ## Supported file formats - Excel, CSV, and JSON.
 
@@ -35,7 +35,7 @@ By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures com
 
 **Excel files** are widely used for data management and analysis, while **CSV** (Comma-Separated Values) and **JSON** (JavaScript Object Notation) formats offer flexibility in exchanging and storing structured data. DORIS's compatibility with these formats enables users to import and analyze death certificates without the need for extensive data conversion or manipulation.
 
-![fileformatsupportedpagepicture ](img/fileformatsupported.png)
+![fileformatsupportedpagepicture ](img/fileformatsupported.png)          
 
 ## Using DORIS User Interface Desktop Version - Step-by-Step Instructions
 
