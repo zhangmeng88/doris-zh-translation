@@ -24,25 +24,27 @@ This software performs a comprehensive and systematic analysis of mortality and 
 
 Software that helps producers of cause-of-death statistics in strengthening their capacity to perform routine plausibility checks on their coding of data. Allows for the analysis of cause-of-death data coded in ICD-10 as well as ICD-11 formats
 
+
 More softwares and tools can be accessed through https://www.who.int/standards/classifications  or https://icd.who.int 
 
-# Other available guidance materials and resources 
+
+## Other available guidance materials and resources 
 
 Recommendations for conducting an external inspection of a body module and how to fill in a death certificate
 A document providing recommendations for conducting an external inspection of a body and filling in the medical certificate of cause of death (MCCD) using the WHO 2016 international medical certificate of cause of death.
 
-## Cause of death certification flyer: A tool for certifying physicians
+### Cause of death certification flyer: A tool for certifying physicians
 
 This flyer summarizes the WHO recommendations aimed at certifying physicians to promote good practices in the medical certification of cause of death. It highlights the process involved in medical certification, including confirming death, examining the body, determining the circumstances and cause of death, and completing the Medical Certificate of Cause of Death (MCCD). 
 
-## WHO Interactive self-learning tool
+### WHO Interactive self-learning tool
 
 The WHO electronic training tool is designed for self-learning and classroom use. The modular structure of this training permits user groups specific tailoring of courses on individual paths if desired. There are two mortality related modules of the training tool.
 
-## Certification self-learning module
+### Certification self-learning module
 A training module using the cause of death certificate version for persons that fill in causes of death on a death certificate.
 
-## Cause of Death Flyer: Quick Reference Guide
+### Cause of Death Flyer: Quick Reference Guide
 
 The Cause of Death Flyer serves as a quick reference guide on the Death Certificate, adhering to the International Classification of Diseases (ICD) mortality rules. This summary outlines key points to consider when recording the cause of death accurately.
 
