@@ -5,3 +5,44 @@ As part if ICD-11 end-to-end solution for mortality reporting, WHO developed a s
 
 ![endtoendsolution picture ](img/endtoendsolution.png)
 
+## electronic Medical Certificate of Cause of Death (eMCCD)
+
+The medical certificate of cause of death is the basis for collecting information on causes of death. The form is designed to collect all relevant aspects to assigning the cause of death and is independent of the revision of ICD. In addition to the paper form template in section 3.14, the technical specifications for a digital form are made available. The specifications serve to standardize input in line with the standard form and include a data dictionary for field names and content-encoding that allows processing the content with the API for coding, as well as with software for selection of the single underlying cause of death.
+
+## ICD-11 Browser and coding tool
+
+ICD-11 offers in various languages a browser known as the "blue browser" for ICD-11 and a smart coding tool. They can be accessed at https://icd.who.int and enable users to search for diagnoses, index terms, concepts, anatomy, synonyms, or any other elements within the content of ICD-11.
+
+## WHO Digital Open Rule Integrated cause of death Selection DORIS tool
+
+DORIS tool is designed to assist in the automated selection of the underlying cause of death. This tool can be utilized both online and offline, accommodating free text and ICD-11 coded datasets. To enable processing by the software, the ICD mortality rules outlined in section  2.21 were transformed into a digital format, resulting in the ICD-11 digital mortality rulebase. For assistance in using the tool, please send an email to icd@who.int or alsokhnc@who.int.
+
+## Analysing Mortality and Causes of Death 3 (ANACOD-3)
+This software performs a comprehensive and systematic analysis of mortality and cause-of-death data. ANACoD3 analyzes sub-national level data to inform of potential health equity issues or outbreak patterns; it also analyzes data over multiple time periods for trend analyses and allows for the analysis of cause-of-death data coded in ICD-10 as well as ICD-11 formats. It is available in multiple languages. For assistance in using the tool, please send an email to mortality@who.int.
+
+## CodEdit
+
+Software that helps producers of cause-of-death statistics in strengthening their capacity to perform routine plausibility checks on their coding of data. Allows for the analysis of cause-of-death data coded in ICD-10 as well as ICD-11 formats
+
+More softwares and tools can be accessed through https://www.who.int/standards/classifications  or https://icd.who.int 
+
+# Other available guidance materials and resources 
+
+Recommendations for conducting an external inspection of a body module and how to fill in a death certificate
+A document providing recommendations for conducting an external inspection of a body and filling in the medical certificate of cause of death (MCCD) using the WHO 2016 international medical certificate of cause of death.
+
+## Cause of death certification flyer: A tool for certifying physicians
+
+This flyer summarizes the WHO recommendations aimed at certifying physicians to promote good practices in the medical certification of cause of death. It highlights the process involved in medical certification, including confirming death, examining the body, determining the circumstances and cause of death, and completing the Medical Certificate of Cause of Death (MCCD). 
+
+## WHO Interactive self-learning tool
+
+The WHO electronic training tool is designed for self-learning and classroom use. The modular structure of this training permits user groups specific tailoring of courses on individual paths if desired. There are two mortality related modules of the training tool.
+
+## Certification self-learning module
+A training module using the cause of death certificate version for persons that fill in causes of death on a death certificate.
+
+## Cause of Death Flyer: Quick Reference Guide
+
+The Cause of Death Flyer serves as a quick reference guide on the Death Certificate, adhering to the International Classification of Diseases (ICD) mortality rules. This summary outlines key points to consider when recording the cause of death accurately.
+
