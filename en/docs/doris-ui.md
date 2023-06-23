@@ -14,13 +14,32 @@ On the DORIS homepage, users can find the template for the input file that is su
 <p> 4 - Follow the provided instructions to download the DORIS tool onto local desktops or computer systems. The installation process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
 <p> By following these steps, users will be able to successfully download the DORIS User Interface Desktop Version and initiate batch processing activities.
 
-  ![DORISUIreducedpicture ](img/DORISUIreduced.png)
+![DORISUIpicture ](img/DORISUI.png)
 
-## Using DORIS UI
+## Supported file formats
 
-The tool requires a file with death certificates to be processed. 
+![fileformatsupportedpagepicture ](img/fileformatsupported.png)
 
 
+
+## Using DORIS User Interface Desktop Version - Step-by-Step Instructions
+
+In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the information on the death certificates and f the ICD mortality rulebase, which operates in the background, to determine the underlying cause of death. By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic determination of the underlying cause of death.
+
+
+
+
+
+
+Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the format you need and proceed to download it onto your computer.
+
+Once the download is complete, open the downloaded file. It is important to fill in the cause of death information accurately, ensuring that you do not modify the format or change the order of the columns. Maintain the original structure of the file.
+
+Launch the DORIS tool on your desktop. Look for the option to load a file for processing and select the file you just filled in with the cause of death information.
+
+After selecting the file, click on the processing button to initiate the file processing procedure. The tool will begin processing the file, and once it completes the task, the output file will be automatically saved in the same location as the input file.
+
+By following these steps, you can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
 
 It supports the following file  formats:
 
