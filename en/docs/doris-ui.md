@@ -2,25 +2,40 @@
 
 DORIS User Interface is a desktop software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates and supports multiple formats, Excel, CSV, and JSON.
 
-On the DORIS homepage, users can find the template for the input file that is supported by the DORIS tool. This template is specifically designed to ensure compatibility and proper data input in the DORIS tool. By accessing the DORIS homepage, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
+DORIS's analysis capabilities play a crucial role in extracting valuable insights from the vast amount of data contained in death certificates. It employs an advanced algorithm to process and interpret the information, enabling users to uncover patterns, trends, and underlying causes of death. This analysis is invaluable for public health surveillance, epidemiological studies, and policy decision-making, as it facilitates the identification of key health indicators, disease prevalence, and potential areas for intervention.
+
+DORIS's ability to handle thousands of death certificates in text and code mode and support multiple file formats offers immense benefits to users. It streamlines data analysis processes, promotes interoperability with various data sources, and empowers users to gain meaningful insights from extensive datasets, ultimately contributing to improved public health outcomes and informed decision-making.
 
 ![DORIShomepagepicture ](img/DORIShomepage.png)
 
 ## Download and Installation
 
-1 - Go to the DORIS homepage by visiting the website icd.who.int/doris.
-2 - On the homepage, locate and click on the "More information and Download" option. This will redirect users to the page containing instructions for using the DORIS Offline Tool.
-3 - Under for the section titled "Download and Installation" users will find the necessary information and resources to download the DORIS tool. The DORIS tool for batch processing can be downloaded from: [Desktop Version](https://icdcdn.who.int/doris/DorisUI_0.6.0.0_x64-rc1.msix)  
-4 - Follow the provided instructions to download the DORIS tool onto local desktops or computer systems. The installation process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
+1. Go to the DORIS homepage by visiting the website icd.who.int/doris.
+2. On the homepage, locate and click on the "More information and Download" option. This will redirect users to the page containing instructions for using the DORIS Offline Tool.
+3. Under for the section titled "Download and Installation" users will find the necessary information and resources to download the DORIS tool. The DORIS tool for batch processing can be downloaded from: [Desktop Version](https://icdcdn.who.int/doris/DorisUI_0.6.0.0_x64-rc1.msix)
+4. Follow the provided instructions to download the DORIS tool onto local desktops or computer systems. The installation process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
+
 By following these steps, users will be able to successfully download the DORIS User Interface Desktop Version and initiate batch processing activities.
 
 ![dorisuipicture](img/dorisui.png)
 
-## Supported file formats
+## Supported input files - Text and code mode.
+
+The DORIS tool can handle two distinct input modes: text and ICD-11 code. This versatility allows users to choose between entering the cause of death information in a text format or utilizing pre-coded ICD-11 classifications for efficient processing. By accommodating both input modes, the tool caters to different user preferences and data availability in countries.
+
+The tool's processing capabilities are highly efficient. It can handle a large volume of death certificates, enabling the processing of thousands or millions of certificates in just a matter of minutes. This processing speed ensures that users can swiftly analyze and extract valuable insights from a significant number of certificates without experiencing significant delays or performance issues. 
+
+The tool's flexibility in handling different input modes and its processing speed make it a reliable and efficient solution for analyzing and extracting meaningful information from death certificates. Whether dealing with text-based or coded certificates, users can rely on the tool to swiftly process large quantities of data, assisting them to make informed decisions in a timely manner.
+
+![textcodemodessupportedpicture ](img/textcodemodessupported.png)
+
+## Supported file formats - Excel, CSV, and JSON.
+
+By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures compatibility and ease of use for users working with different data sources. On the DORIS homepage, users can find the template for the input files that are supported by the DORIS tool. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By accessing the DORIS homepage, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
+
+**Excel files** are widely used for data management and analysis, while **CSV** (Comma-Separated Values) and **JSON** (JavaScript Object Notation) formats offer flexibility in exchanging and storing structured data. DORIS's compatibility with these formats enables users to import and analyze death certificates without the need for extensive data conversion or manipulation.
 
 ![fileformatsupportedpagepicture ](img/fileformatsupported.png)
-
-
 
 ## Using DORIS User Interface Desktop Version - Step-by-Step Instructions
 
