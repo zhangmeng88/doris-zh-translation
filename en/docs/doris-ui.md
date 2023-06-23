@@ -23,7 +23,7 @@ By following these steps, users will be able to successfully download the DORIS 
 
 The DORIS tool can handle two distinct input modes: text and ICD-11 code. This versatility allows users to choose between entering the cause of death information in a text format or utilizing pre-coded ICD-11 classifications for efficient processing. By accommodating both input modes, the tool caters to different user preferences and data availability in countries.
 
-The tool's processing capabilities are highly efficient. It can handle a large volume of death certificates, enabling the processing of thousands or millions of certificates in just a matter of minutes. This processing speed ensures that users can swiftly analyze and extract valuable insights from a significant number of certificates without experiencing significant delays or performance issues. 
+The tool's processing capabilities are highly efficient. It can handle a large volume of death certificates, enabling the processing of thousands or even millions of certificates in just a matter of minutes. This processing speed ensures that users can swiftly analyze and extract valuable insights from a significant number of certificates without experiencing significant delays or performance issues. 
 
 The tool's flexibility in handling different input modes and its processing speed make it a reliable and efficient solution for analyzing and extracting meaningful information from death certificates. Whether dealing with text-based or coded certificates, users can rely on the tool to swiftly process large quantities of data, assisting them to make informed decisions in a timely manner.
 
