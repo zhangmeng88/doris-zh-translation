@@ -58,6 +58,26 @@ here: [Tabular Format Specification](csv-excel-format.md)
 
 By following these steps, users can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
 
+**Attributes for Input file**
+
+When entering input data, there are specific attributes related to the input fields that should be considered:
+- CertificateKey: This attribute serves as a unique identifier for the certificate. Users need to define a CertificateKey to identify a particular certificate.
+
+- International Classification of Diseases (ICD) version: Users must specify the version of the ICD that was used to code the certificate. The current supported version is ICD-11.
+
+- Sex: This attribute represents the gender of the individual. The value "1" indicates Male, "2" indicates Female, and "9" indicates Unknown.
+
+- Date of birth and date of death: Users should adhere to the specified date format when entering the dates of birth and death.
+
+- Estimated age: This attribute should be represented in the specified duration format when providing an estimation of the individual's age.
+
+- Cause of Death: This attribute can be filled in using one of the following options:
+	Textual description: Users can provide cause of death in plain text.
+	Classification codes: Users can enter classification codes separated by commas. Post-coordination is allowed, which means combining different codes, such as "Stem code A & Ext code / Stem code B".
+	URIs: For ICD-11, users can provide URIs (Uniform Resource Identifiers) for cause fields, separated by commas. Post-coordination is allowed, similar to the classification codes format.
+- Interval: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
+
+
 ### Checking the output file
 
 TBA
