@@ -58,7 +58,7 @@ here: [Tabular Format Specification](csv-excel-format.md)
 
 By following these steps, users can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
 
-**Attributes for Input file**
+### Attributes for Input file
 
 When entering input data, there are specific attributes related to the input fields that should be considered:
 - CertificateKey: This attribute serves as a unique identifier for the certificate. Users need to define a CertificateKey to identify a particular certificate.
@@ -76,6 +76,8 @@ When entering input data, there are specific attributes related to the input fie
 	Classification codes: Users can enter classification codes separated by commas. Post-coordination is allowed, which means combining different codes, such as "Stem code A & Ext code / Stem code B".
 	URIs: For ICD-11, users can provide URIs (Uniform Resource Identifiers) for cause fields, separated by commas. Post-coordination is allowed, similar to the classification codes format.
 - Interval: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
+
+More information can be found [here](https://github.com/ICD-API/electronic-death-certificate-format-tabular)
 
 
 ### Checking the output file
