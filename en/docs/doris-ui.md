@@ -8,7 +8,9 @@ DORIS's ability to handle thousands of death certificates in text and code mode 
 
 ## Download and Installation
 
-The DORIS tool for batch processing can be downloaded from: [Desktop Version](https://icdcdn.who.int/doris/DorisUI_0.6.0.0_x64-rc1.msix)
+The DORIS UI desktop software for batch processing can be downloaded from the following link:
+
+- [Doris UI version 1.0.0-rc.1 - for Windows](https://icdcdn.who.int/doris/DorisUI_1.0.0-rc.1_windows_x64.msix)
 
 DORIS installation and launch is a quick and very simple process involves double-clicking on the downloaded file and following the on-screen instructions provided. 
 
