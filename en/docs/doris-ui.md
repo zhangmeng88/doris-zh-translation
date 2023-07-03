@@ -1,6 +1,6 @@
-# DORIS User Interface (Desktop Version for batch processing) 
+# DORIS UI (Desktop Version for batch processing) 
 
-DORIS User Interface is a desktop software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates and supports multiple formats, Excel, CSV, and JSON.
+DORIS UI is a desktop software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates and supports multiple formats, Excel, CSV, and JSON.
 
 DORIS's analysis capabilities play a crucial role in extracting valuable insights from the vast amount of data contained in death certificates. It employs an advanced algorithm to process and interpret the information, enabling users to uncover patterns, trends, and underlying causes of death. This analysis is invaluable for public health surveillance, epidemiological studies, and policy decision-making, as it facilitates the identification of key health indicators, disease prevalence, and potential areas for intervention.
 
