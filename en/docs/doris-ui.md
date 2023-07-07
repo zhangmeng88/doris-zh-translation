@@ -14,6 +14,43 @@ The DORIS UI desktop software for batch processing can be downloaded from the fo
 
 DORIS installation and launch is a quick and very simple process and involves double-clicking on the downloaded file and following the on-screen instructions. 
 
+### Using DORIS Desktop Version - Loading the file and processing
+
+1. Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the needed format and proceed to download it onto the local computer.
+
+2. Once the download is complete, open the downloaded file. It is important to fill in the information accurately, ensuring not to modify the format or change the order of the columns. Maintain the original structure of the file.
+
+3. Launch the DORIS tool on local desktop. Look for the **select key** to load a file for processing and select the file that was filled in with the cause of death information.
+
+4. After selecting the file, click on the **process key** to initiate the file processing procedure. Once the tool completes the task, the output file will be automatically saved in the same location as the input file. and the processing time will be shown on the screen along with a sneak peak of the output file and the color coded columns 
+
+By following these steps, users can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
+
+### Attributes for Input file
+
+When entering input data, there are specific attributes related to the input fields that should be considered:
+
+- CertificateKey: This attribute serves as a unique identifier for the certificate. Users need to define a CertificateKey to identify a particular certificate.
+
+- International Classification of Diseases (ICD) version: Users must specify the version of the ICD that was used to code the certificate. The current supported version is ICD-11.
+
+- Sex: This attribute represents the gender of the individual. The value "1" indicates Male, "2" indicates Female, and "9" indicates Unknown.
+
+- Date of birth and date of death: Users should adhere to the specified date format when entering the dates of birth and death.
+
+- Estimated age: This attribute should be represented in the specified duration format when providing an estimation of the individual's age.
+
+- Cause of Death: This attribute can be filled in using one of the following options:
+	**Textual description**: Users can provide cause of death in plain text and should fill in the corresponding columns in the input file in this case CauseOfDeathTextA, CauseOfDeathTextB, etc. 
+
+	**Classification codes:** Users can enter ICD-11 codes separated by commas and should fill in the corresponding columns in the input file in this case CauseOfDeathA, CauseOfDeathB, etc. Post-coordination is allowed, which means combining different codes, such as "Stem code A & Ext code / Stem code B".
+  
+	**URIs**: For ICD-11, users can provide URIs (Uniform Resource Identifiers) for cause fields, separated by commas and should fill in the corresponding columns in the input file in this case CauseOfDeathURIA,CauseOfDeathURIB, etc. Post-coordination is allowed, similar to the classification codes format.
+  
+- Interval: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
+
+More information can be found [here](https://github.com/ICD-API/electronic-death-certificate-format-tabular)
+
 # Supported modes and file formats
 
 ![Supportedmodesfileformatspicture](img/Supportedmodesfileformats.png)
@@ -36,39 +73,6 @@ Users should prepare their data sets following the below templates that are supp
 
 
 By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures compatibility and ease of use for users working with different data sources. 
-
-### Using DORIS User Interface Desktop Version - Loading the file and processing
-
-1. Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the needed format and proceed to download it onto the local computer.
-
-2. Once the download is complete, open the downloaded file. It is important to fill in the cause of death information accurately, ensuring not to modify the format or change the order of the columns. Maintain the original structure of the file.
-
-3. Launch the DORIS tool on local desktop. Look for the **select key** to load a file for processing and select the file that was filled in with the cause of death information.
-
-4. After selecting the file, click on the **process key** to initiate the file processing procedure. Once the tool completes the task, the output file will be automatically saved in the same location as the input file. and the processing time will be shown on the screen along with a sneak peak of the output file and the color coded columns 
-
-By following these steps, users can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
-
-### Attributes for Input file
-
-When entering input data, there are specific attributes related to the input fields that should be considered:
-- CertificateKey: This attribute serves as a unique identifier for the certificate. Users need to define a CertificateKey to identify a particular certificate.
-
-- International Classification of Diseases (ICD) version: Users must specify the version of the ICD that was used to code the certificate. The current supported version is ICD-11.
-
-- Sex: This attribute represents the gender of the individual. The value "1" indicates Male, "2" indicates Female, and "9" indicates Unknown.
-
-- Date of birth and date of death: Users should adhere to the specified date format when entering the dates of birth and death.
-
-- Estimated age: This attribute should be represented in the specified duration format when providing an estimation of the individual's age.
-
-- Cause of Death: This attribute can be filled in using one of the following options:
-	**Textual description**: Users can provide cause of death in plain text.
-	**Classification codes:** Users can enter classification codes separated by commas. Post-coordination is allowed, which means combining different codes, such as "Stem code A & Ext code / Stem code B".
-	URIs: For ICD-11, users can provide URIs (Uniform Resource Identifiers) for cause fields, separated by commas. Post-coordination is allowed, similar to the classification codes format.
-- Interval: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
-
-More information can be found [here](https://github.com/ICD-API/electronic-death-certificate-format-tabular)
 
 **Excel files** are widely used for data management and analysis, while **CSV** (Comma-Separated Values) and **JSON** (JavaScript Object Notation) formats offer flexibility in exchanging and storing structured data. DORIS's compatibility with these formats enables users to import and analyze death certificates without the need for extensive data conversion or manipulation.
 
