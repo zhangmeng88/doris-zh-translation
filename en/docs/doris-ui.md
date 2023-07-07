@@ -1,4 +1,4 @@
-# DORIS UI (Desktop Version for batch processing) 
+# DORIS Desktop Version for batch processing 
 
 ![dorisuipicture](img/dorisui.png)
 
@@ -14,7 +14,7 @@ The DORIS UI desktop software for batch processing can be downloaded from the fo
 
 DORIS installation and launch is a quick and very simple process and involves double-clicking on the downloaded file and following the on-screen instructions. 
 
-# Using DORIS Desktop Version - Loading the file and processing
+# Loading the file and processing
 
 1. Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the needed format and proceed to download it onto the local computer.
 
@@ -52,9 +52,11 @@ Users should prepare their data sets following the below templates. These templa
 
 ![fileformatsupportedpagepicture ](img/fileformatsupported.png)    
 
-### Tabular format (Excel and CSV)
-- The Excel and CSV formats are tabular representation of the certificate and output of DORIS. The format specification and sample files can be found 
-here: [Tabular Format Specification](csv-excel-format.md)
+### Excel format    
+For a sample in Excel format click here: [Excel Format Specification](en/docs/sample.xlsx)
+
+### CSV format 
+For a sample in Excel format click here: [CSV Format Specification](en/docs/sample.csv)
 
 ### JSON format
 - The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
