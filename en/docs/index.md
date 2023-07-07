@@ -16,4 +16,4 @@
   - Additionally, you can access DORIS through an **DORIS API (Application Programming Interface)**. Although currently in a pre-release version, this feature enables integration with other systems or applications.
 > Information regarding the API can be found at [ICD-API](https://icd.who.int/icdapi) with further details available [here](doris-api.md)
 
-  ![DORIShomepagepicture ](img/DORIShomepage.png)
+  ![dorishomepagepicture ](img/dorishomepage.png)
