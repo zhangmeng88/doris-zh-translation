@@ -13,8 +13,8 @@ DORIS's ability to handle thousands of death certificates in text and code mode 
 The DORIS UI desktop software for batch processing can be downloaded from the following link:
 
 - Verison 1.0 Release Candidate 1 
-	- Download link : [For Windows](https://icdcdn.who.int/doris/DorisUI_1.0.0-rc.1_windows_x64.msix)
-   	- Download link for Mac is upcoming
+	- Download link : [For Windows computers](https://icdcdn.who.int/doris/DorisUI_1.0.0-rc.1_windows_x64.msix)
+   	- Download link for Mac computers is upcoming
 
 DORIS installation and launch is a quick and very simple process and involves double-clicking on the downloaded file and following the on-screen instructions. 
 
