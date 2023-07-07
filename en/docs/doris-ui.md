@@ -37,9 +37,9 @@ By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures com
 
 **Excel files** are widely used for data management and analysis, while **CSV** (Comma-Separated Values) and **JSON** (JavaScript Object Notation) formats offer flexibility in exchanging and storing structured data. DORIS's compatibility with these formats enables users to import and analyze death certificates without the need for extensive data conversion or manipulation.
 
-Users should prepare their data sets following the below templates. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By clicking on the needed file format below, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
-
 ![fileformatsupportedpagepicture ](img/fileformatsupported.png)    
+
+Users should prepare their data sets following the below templates. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By clicking on the needed file format below, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
 
 ### Excel format    
 > For a sample in Excel format click here: [Excel Format Specifications](sample.xlsx)
