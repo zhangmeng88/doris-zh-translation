@@ -33,6 +33,8 @@ More softwares and tools can be accessed through https://www.who.int/standards/c
 Recommendations for conducting an external inspection of a body module and how to fill in a death certificate
 A document providing recommendations for conducting an external inspection of a body and filling in the medical certificate of cause of death (MCCD) using the WHO 2016 international medical certificate of cause of death.
 
+For more information click here 
+
 ### Cause of death certification flyer: A tool for certifying physicians
 
 This flyer summarizes the WHO recommendations aimed at certifying physicians to promote good practices in the medical certification of cause of death. It highlights the process involved in medical certification, including confirming death, examining the body, determining the circumstances and cause of death, and completing the Medical Certificate of Cause of Death (MCCD). 
