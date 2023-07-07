@@ -1,10 +1,11 @@
 # DORIS Desktop Version for batch processing 
 
+
+DORIS Desktop Version is a desktop software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates and supports multiple formats, Excel, CSV, and JSON.
+
 ![dorisuipicture](img/dorisui.png)
 
-DORIS UI is a desktop software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates and supports multiple formats, Excel, CSV, and JSON.
-
-# Download and quick installation
+## Download and quick installation
 
 The DORIS UI desktop software for batch processing can be downloaded from the following link:
 
@@ -14,7 +15,7 @@ The DORIS UI desktop software for batch processing can be downloaded from the fo
 
 DORIS installation and launch is a quick and very simple process and involves double-clicking on the downloaded file and following the on-screen instructions. 
 
-# Loading the file and processing
+## Loading the file and processing
 
 1. Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the needed format and proceed to download it onto the local computer.
 
@@ -34,7 +35,7 @@ In order to use the DORIS tool effectively, users are required to provide an inp
 
 By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic selection of the underlying cause of death.
 
-## Supported input files are text and code mode.
+### Supported input files are text and code mode.
 
 The DORIS tool can handle two distinct input modes: text and ICD-11 code. 
 
@@ -42,7 +43,7 @@ This versatility allows users to choose between entering the cause of death info
 
 ![textcodemodessupportedpicture ](img/textcodemodessupported.png)     
 
-## Supported file formats are Excel, CSV, and JSON.
+### Supported file formats are Excel, CSV, and JSON.
 
 By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures compatibility and ease of use for users working with different data sources. 
 
