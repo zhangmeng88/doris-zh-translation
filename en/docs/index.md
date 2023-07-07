@@ -1,7 +1,7 @@
 
-# DORIS - WHO Digital Open Rule Integrated cause of death Selection 
+# WHO Digital Open Rule Integrated cause of death Selection 
 
-![userguidepic picture ](img/userguidepic.png)
+![dorisgraphicpicture](img/dorisgraphic.png)
 
 **DORIS** is a software developed to facilitate the identification of the underlying cause of death. This tool examines the information provided on the certificates and assists in automatically selecting the underlying cause of death following the mortality rule-base of the International Classification of Diseases (ICD). This means that the underlying logic and decision-making process of the tool are aligned with the internationally recognized standards and guidelines provided by the ICD-11 reference guide for selecting the underlying causes of death. By adhering to the ICD mortality rule-base, the tool ensures compatibility and consistency with the global framework for cause of death classification. This enables accurate and standardized reporting of causes of death, promoting reliable and comparable mortality data analysis. 
 
