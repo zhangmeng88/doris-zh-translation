@@ -5,7 +5,7 @@
 
 As part if ICD-11 end-to-end solution for mortality reporting, WHO developed a suite of digital tools for cause of death that consists of programs that assist in coding, selecting the single underlying cause of death and assessing the quality of the coding or the quality of the data. These digital tools are designed to enhance accuracy and efficiency in mortality reporting, ensuring standardized and reliable cause of death information.
 
- > More softwares and tools can be accessed through https://www.who.int/standards/classifications or https://icd.who.int 
+ > More softwares and tools can be accessed through [WHO cause of death page](https://www.who.int/standards/classifications/classification-of-diseases/cause-of-death) or [ICD-11 Homepage](https://icd.who.int) 
 
 ## electronic Medical Certificate of Cause of Death (eMCCD)
 
@@ -13,13 +13,13 @@ The medical certificate of cause of death is the basis for collecting informatio
 
 ## ICD-11 Browser and coding tool
 
-ICD-11 offers in various languages a browser known as the "blue browser" for ICD-11 and a smart coding tool. They can be accessed at https://icd.who.int and enable users to search for diagnoses, index terms, concepts, anatomy, synonyms, or any other elements within the content of ICD-11.
+ICD-11 offers in various languages a browser known as the "blue browser" for ICD-11 and a smart coding tool. They can be accessed from ICD-11 homepage and enable users to search for diagnoses, index terms, concepts, anatomy, synonyms, or any other elements within the content of ICD-11.
 
  > For more information click [here](https://icd.who.int/browse11/l-m/en)
 
 ## WHO Digital Open Rule Integrated cause of death Selection DORIS tool
 
-DORIS tool is designed to assist in the automated selection of the underlying cause of death. This tool can be utilized both online and offline, accommodating free text and ICD-11 coded datasets. To enable processing by the software, the ICD mortality rules outlined in section  2.21 were transformed into a digital format, resulting in the ICD-11 digital mortality rulebase. For assistance in using the tool, please send an email to icd@who.int or alsokhnc@who.int.
+DORIS tool is designed to assist in the automated selection of the underlying cause of death. This tool can be utilized both online and offline, accommodating free text and ICD-11 coded datasets. To enable processing by the software, the ICD mortality rules outlined in section  2.21 were transformed into a digital format, resulting in the ICD-11 digital mortality rulebase. For assistance in using the tool, please send an email to icd@who.int.
 
  > For more information click [here](https://icd.who.int/doris) 
 
@@ -34,9 +34,9 @@ Software that helps producers of cause-of-death statistics in strengthening thei
 
  > For more information click [here](https://www.who.int/standards/classifications/classification-of-diseases/services/codedit-tool#/upload)
 
-## Other available guidance materials and resources 
+# Other available cause of death resources 
 
-Recommendations for conducting an external inspection of a body module and how to fill in a death certificate
+## WHO Recommendations for conducting an external inspection of a body module and how to fill in a death certificate
 A document providing recommendations for conducting an external inspection of a body and filling in the medical certificate of cause of death (MCCD) using the WHO 2016 international medical certificate of cause of death.
 
  > For more information click [here](https://www.who.int/publications/m/item/who-recommendations-for-conducting-an-external-inspection-of-a-body-and-filling-in-the-medical-certificate-of-cause-of-death)
@@ -51,12 +51,10 @@ This flyer summarizes the WHO recommendations aimed at certifying physicians to 
 
 The WHO electronic training tool is designed for self-learning and classroom use. The modular structure of this training permits user groups specific tailoring of courses on individual paths if desired. There are two mortality related modules of the training tool.
 
-
-
-### Certification self-learning module
-A training module using the cause of death certificate version for persons that fill in causes of death on a death certificate.
+ > For more information click [here](https://icd.who.int/training/icd10training/ICD-10%20Death%20Certificate/html/index.html)
 
 ### Cause of Death Flyer: Quick Reference Guide
 
 The Cause of Death Flyer serves as a quick reference guide on the Death Certificate, adhering to the International Classification of Diseases (ICD) mortality rules. This summary outlines key points to consider when recording the cause of death accurately.
 
+> For more information click [here](https://cdn.who.int/media/docs/default-source/classification/icd/cause-of-death/causeofdeathflyer_2015.pdf?sfvrsn=9ec05f86_1#/upload)
