@@ -20,6 +20,8 @@ DORIS installation and launch is a quick and very simple process and involves do
 
 # Supported modes and file formats
 
+![Supportedmodesfileformatspicture](img/Supportedmodesfileformats.png)
+
 In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the information on the death certificates and with the digital mortality rulebase which operates in the background, the tool will determine the underlying cause of death. By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic determination of the underlying cause of death.
 
 ## Supported input files - Text and code mode.
