@@ -4,10 +4,6 @@
 
 DORIS UI is a desktop software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates and supports multiple formats, Excel, CSV, and JSON.
 
-DORIS's analysis capabilities play a crucial role in extracting valuable insights from the vast amount of data contained in death certificates. It employs an advanced algorithm to process and interpret the information, enabling users to uncover patterns, trends, and underlying causes of death. This analysis is invaluable for public health surveillance, epidemiological studies, and policy decision-making, as it facilitates the identification of key health indicators, disease prevalence, and potential areas for intervention.
-
-DORIS's ability to handle thousands of death certificates in text and code mode and support multiple file formats offers immense benefits to users. It streamlines data analysis processes, promotes interoperability with various data sources, and empowers users to gain meaningful insights from extensive datasets, ultimately contributing to improved public health outcomes and informed decision-making.
-
 ## Download and quick installation
 
 The DORIS UI desktop software for batch processing can be downloaded from the following link:
