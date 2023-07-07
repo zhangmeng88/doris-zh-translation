@@ -15,18 +15,6 @@ The DORIS UI desktop software for batch processing can be downloaded from the fo
 
 DORIS installation and launch is a quick and very simple process and involves double-clicking on the downloaded file and following the on-screen instructions. 
 
-## Loading the file and processing
-
-1. Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the needed format and proceed to download it onto the local computer.
-
-2. Once the download is complete, open the downloaded file. It is important to fill in the information accurately, ensuring not to modify the format or change the order of the columns. Maintain the original structure of the file.
-
-3. Launch the DORIS tool on local desktop. Look for the **select key** to load a file for processing and select the file that was filled in with the cause of death information.
-
-4. After selecting the file, click on the **process key** to initiate the file processing procedure. Once the tool completes the task, the output file will be automatically saved in the same location as the input file. and the processing time will be shown on the screen along with a sneak peak of the output file and the color coded columns 
-
-By following these steps, users can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
-
 ## Supported modes and file formats
 
 ![Supportedmodesfileformatspicture](img/Supportedmodesfileformats.png)
@@ -54,10 +42,10 @@ Users should prepare their data sets following the below templates. These templa
 ![fileformatsupportedpagepicture ](img/fileformatsupported.png)    
 
 ### Excel format    
-> For a sample in Excel format click here: [Excel Format Specification](sample.xlsx)
+> For a sample in Excel format click here: [Excel Format Specifications](sample.xlsx)
 
 ### CSV format 
-> For a sample in Excel format click here: [CSV Format Specification](sample.csv)
+> For a sample in Excel format click here: [CSV Format Specifications](sample.csv)
 
 ### JSON format
 > The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
@@ -88,8 +76,19 @@ When entering input data, there are specific attributes related to the input fie
 
 More information can be found [here](https://github.com/ICD-API/electronic-death-certificate-format-tabular)
 
+## Loading the file and processing
 
-### Checking the output file
+1. Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the needed format and proceed to download it onto the local computer.
+
+2. Once the download is complete, open the downloaded file. It is important to fill in the information accurately, ensuring not to modify the format or change the order of the columns. Maintain the original structure of the file.
+
+3. Launch the DORIS tool on local desktop. Look for the **select key** to load a file for processing and select the file that was filled in with the cause of death information.
+
+4. After selecting the file, click on the **process key** to initiate the file processing procedure. Once the tool completes the task, the output file will be automatically saved in the same location as the input file. and the processing time will be shown on the screen along with a sneak peak of the output file and the color coded columns 
+
+By following these steps, users can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
+
+## Checking the output file
 
 TBA
 
