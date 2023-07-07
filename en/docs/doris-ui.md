@@ -58,7 +58,7 @@ When entering input data, there are specific attributes related to the input fie
 
 - **(ICD) version**: Users must specify the version of the  International Classification of Diseases (ICD) that was used to code the certificate. The current supported version is ICD-11.
 
-- **Sex**: This attribute represents the gender of the individual. The value "1" indicates Male, "2" indicates Female, and "9" indicates Unknown.
+- **Sex**: This attribute denotes the sex of the individual. The value "1" corresponds to Male, "2" corresponds to Female, and "9" corresponds to Unknown. Please note that while the tool accepts "M" for Male and "F" for Female at the input stage, it will automatically convert them to "1" and "2" respectively to align with the required ANACOD-3 output for subsequent stages of data management and visulatization.
 
 - **Date of birth and date of death**: Users should adhere to the specified date format when entering the dates of birth and death.
 
