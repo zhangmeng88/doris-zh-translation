@@ -1,5 +1,5 @@
 
-# WHO Digital Open Rule Integrated cause of death Selection 
+# WHO Digital Open Rule Integrated cause of death Selection tool
 
 ![dorisgraphicpicture](img/dorisgraphic.png)
 
