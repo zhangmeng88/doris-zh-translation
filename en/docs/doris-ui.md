@@ -54,13 +54,13 @@ Users should prepare their data sets following the below templates. These templa
 ![fileformatsupportedpagepicture ](img/fileformatsupported.png)    
 
 ### Excel format    
-For a sample in Excel format click here: [Excel Format Specification](en/docs/sample.xlsx)
+> For a sample in Excel format click here: [Excel Format Specification](en/docs/sample.xlsx)
 
 ### CSV format 
-For a sample in Excel format click here: [CSV Format Specification](en/docs/sample.csv)
+> For a sample in Excel format click here: [CSV Format Specification](en/docs/sample.csv)
 
 ### JSON format
-- The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
+> The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
 
 ## Attributes for Input file
 
