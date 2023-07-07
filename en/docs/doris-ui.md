@@ -54,25 +54,25 @@ Users should prepare their data sets following the below templates. These templa
 
 When entering input data, there are specific attributes related to the input fields that should be considered:
 
-- CertificateKey: This attribute serves as a unique identifier for the certificate. Users need to define a CertificateKey to identify a particular certificate.
+- **CertificateKey**: This attribute serves as a unique identifier for the certificate. Users need to define a CertificateKey to identify a particular certificate.
 
-- International Classification of Diseases (ICD) version: Users must specify the version of the ICD that was used to code the certificate. The current supported version is ICD-11.
+- **(ICD) version**: Users must specify the version of the  International Classification of Diseases (ICD) that was used to code the certificate. The current supported version is ICD-11.
 
-- Sex: This attribute represents the gender of the individual. The value "1" indicates Male, "2" indicates Female, and "9" indicates Unknown.
+- **Sex**: This attribute represents the gender of the individual. The value "1" indicates Male, "2" indicates Female, and "9" indicates Unknown.
 
-- Date of birth and date of death: Users should adhere to the specified date format when entering the dates of birth and death.
+- **Date of birth and date of death**: Users should adhere to the specified date format when entering the dates of birth and death.
 
-- Estimated age: When providing an estimated age for an individual, this attribute should be represented in the specified duration format. If only numbers are filled in the column, the tool will assume that the age is provided in years. 
+- **Estimated age** When providing an estimated age for an individual, this attribute should be represented in the specified duration format. If only numbers are filled in the column, the tool will assume that the age is provided in years. 
 
-- Cause of Death: This attribute can be completed in Part 1 and Part 2 using any of the following methods:
+- **Cause of Death**: This attribute can be completed in Part 1 and Part 2 using any of the following methods:
 
-**Textual description**: Users have the option to provide a plain text description of the cause of death. In this case, they should fill in the corresponding columns in the input file, such as CauseOfDeathTextA, CauseOfDeathTextB, CauseOfDeathTextPart2, and so on.
+	1. **Textual description**: Users have the option to provide a plain text description of the cause of death. In this case, they should fill in the corresponding columns in the input file, 	such as CauseOfDeathTextA, CauseOfDeathTextB, CauseOfDeathTextPart2, and so on.
 
-**ICD-11 codes**: Users can enter ICD-11 codes separated by commas. They should fill in the corresponding columns in the input file, such as CauseOfDeathA, CauseOfDeathB, CauseOfDeathPart2, and so forth. Post-coordination is allowed, meaning that different codes can be combined, for example, "Stem code A & Ext code / Stem code B".
+	2. **ICD-11 codes**: Users can enter ICD-11 codes separated by commas. They should fill in the corresponding columns in the input file, such as CauseOfDeathA, CauseOfDeathB, 			CauseOfDeathPart2, and so forth. Post-coordination is allowed, meaning that different codes can be combined, for example, "Stem code A & Ext code / Stem code B".
 
-**URIs**: For ICD-11, users have the option to provide URIs (Uniform Resource Identifiers) for cause fields, separated by commas. They should fill in the corresponding columns in the input file, such as CauseOfDeathURIA, CauseOfDeathURIB, CauseOfDeathURIPart2, and so on. Post-coordination is allowed.
+	3. **URIs**: For ICD-11, users have the option to provide URIs (Uniform Resource Identifiers) for cause fields, separated by commas. They should fill in the corresponding columns in the 	input file, such as CauseOfDeathURIA, CauseOfDeathURIB, CauseOfDeathURIPart2, and so on. Post-coordination is allowed.
 
-- Interval: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
+- **Interval**: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
 
 More information can be found [here](https://github.com/ICD-API/electronic-death-certificate-format-tabular)
 
