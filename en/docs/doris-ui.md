@@ -18,27 +18,24 @@ DORIS installation and launch is a quick and very simple process and involves do
 
 ![Supportedmodesfileformatspicture](img/Supportedmodesfileformats.png)
 
-In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the information on the death certificates and following the digital mortality rulebase which operates in the background, the tool will determine the underlying cause of death. 
+In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the available information and following the ICD mortality rulebase which operates in the background, the tool will automatically determine the underlying cause of death. 
 
-By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic determination of the underlying cause of death.
+By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic selection of the underlying cause of death.
 
-The tool's processing capabilities are highly efficient. It can handle a large volume of death certificates, enabling the processing of thousands or even millions of certificates in just a matter of minutes. This processing speed ensures that users can swiftly analyze and extract valuable insights from a significant number of certificates without experiencing significant delays or performance issues. 
-
-The tool's flexibility in handling different input modes and its processing speed make it a reliable and efficient solution for analyzing and extracting meaningful information from death certificates. Whether dealing with text-based or coded certificates, users can rely on the tool to swiftly process large quantities of data, assisting them to make informed decisions in a timely manner.
-
-## Supported input files - Text and code mode.
+## Supported input files are Text and code mode.
 
 The DORIS tool can handle two distinct input modes: text and ICD-11 code. 
 
-This versatility allows users to choose between entering the cause of death information in a text format or utilizing pre-coded ICD-11 coded data sets for efficient processing. By accommodating both input modes, the tool caters to different user preferences and data availability in countries.
+This versatility allows users to choose between entering the cause of death information in a text format or utilizing ICD-11 pre-coded data sets for efficient processing. By accommodating both input modes, the tool caters to different user preferences and data availability in countries.
 
 ![textcodemodessupportedpicture ](img/textcodemodessupported.png)     
 
-## Supported file formats - Excel, CSV, and JSON.
+## Supported file formats are Excel, CSV, and JSON.
+
+Users should prepare their data sets following the below templates that are supported by the DORIS tool. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By clicking on the needed file format below, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
+
 
 By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures compatibility and ease of use for users working with different data sources. 
-
-On the DORIS homepage, users can find the template for the input files that are supported by the DORIS tool. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By accessing the DORIS homepage, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
 
 ### Using DORIS User Interface Desktop Version - Loading the file and processing
 
