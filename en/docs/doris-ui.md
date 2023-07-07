@@ -86,7 +86,7 @@ More information can be found [here](https://github.com/ICD-API/electronic-death
 
 4. After selecting the file, click on the **process key** to initiate the file processing procedure. Once the tool completes the task, the output file will be automatically saved in the same location as the input file. and the processing time will be shown on the screen along with a sneak peak of the output file and the color coded columns 
 
-By following these steps, users can effectively utilize the DORIS User Interface Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
+By following these steps, users can effectively utilize the DORIS Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
 
 ## Checking the output file
 
