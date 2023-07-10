@@ -82,7 +82,9 @@ More information can be found [here](https://github.com/ICD-API/electronic-death
 
 2. Once the download is complete, open the downloaded file. It is important to fill in the information accurately, ensuring not to modify the format or change the order of the columns. Maintain the original structure of the file.
 
-3. Launch the DORIS tool on local desktop. Look for the **select key** to load a file for processing and select the file that was filled in with the cause of death information.
+3. Launch the DORIS tool on local desktop. Look for the **select key** to load a file for processing and select the file that was filled in with the cause of death information. Even if you load thousands of death certificates, the tool will display the top 400 certificates as a final check that all field are properly filled before clicking on the process.
+
+![dorisprocessstep1.2_codesonly](img/dorisprocessstep1.2_codesonly.JPG)
 
 4. After selecting the file, click on the **process key** to initiate the file processing procedure. Once the tool completes the task, the output file will be automatically saved in the same location as the input file. and the processing time will be shown on the screen along with a sneak peak of the output file and the color coded columns 
 
