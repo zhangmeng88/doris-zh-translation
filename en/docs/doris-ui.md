@@ -115,7 +115,8 @@ Then users should go to the Report column that gives an overview of the steps ap
 Errors column: This field captures any errors encountered during the processing of the certificates. Errors can occur due to invalid input, formatting issues, or other inconsistencies that need to be addressed.
 
 Warnings column: This field logs any warnings generated during processing. Warnings are typically issued for potential issues or anomalies that might not necessarily lead to rejection but should be reviewed and taken into consideration.
-![image](https://github.com/ICD-Docs/doris/assets/136827436/5ca6d349-5d79-48e9-a7ef-3f9a56696c4a)
+
+
 
 
 
