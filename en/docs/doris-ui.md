@@ -17,8 +17,6 @@ DORIS installation and launch is a quick and very simple process and involves do
 
 ## Supported modes and file formats
 
-![Supportedmodesfileformatspicture](img/Supportedmodesfileformats.png)
-
 In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the available information and following the ICD mortality rulebase which operates in the background and will automatically determine the underlying cause of death. 
 
 By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic selection of the underlying cause of death.
@@ -49,6 +47,8 @@ Users should prepare their data sets following the below templates. These templa
 
 ### JSON format
 > The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
+
+![Supportedmodesfileformatspicture](img/Supportedmodesfileformats.png)
 
 ## 5 simple steps for loading and processing the file 
 
