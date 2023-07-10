@@ -30,7 +30,7 @@ This software performs a comprehensive and systematic analysis of mortality and 
 
 ## CodEdit
 
-Software that helps producers of cause-of-death statistics in strengthening their capacity to perform routine plausibility checks on their coding of data. Allows for the analysis of cause-of-death data coded in ICD-10 as well as ICD-11 formats
+A software that helps producers of cause-of-death statistics in strengthening their capacity to perform routine plausibility checks on their coding of data. It allows for the analysis of cause-of-death data coded in ICD-10 as well as ICD-11 formats
 
  > For more information click [here](https://www.who.int/standards/classifications/classification-of-diseases/services/codedit-tool#/upload)
 
