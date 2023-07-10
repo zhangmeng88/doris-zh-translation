@@ -124,9 +124,9 @@ Additional columns are included in the output file to aid users in processing th
 
 **ProcessedCauseOfDeath columns**
 
-- In all three entry modes (ICD-11 codes or textual descriptions or URIs), the DORIS tool provides the corresponding entity titles in the international classification of diseases. This means that if the input file consists of only ICD-11 codes, the relevant entity title will be specified in the respective **ProcessedCauseOfDeathEntityTitles column**. 
+In all three entry modes (ICD-11 codes or textual descriptions or URIs), the DORIS tool provides the corresponding entity titles in the international classification of diseases. This means that if the input file consists of only ICD-11 codes, the relevant entity title will be specified in the respective **ProcessedCauseOfDeathEntityTitles column**. 
 
-- If the input file contains textual descriptions, the DORIS tool automatically matches the provided text with the appropriate ICD-11 codes. The tool assigns auto-coding messages and match levels to indicate the quality of the automated coding process. These columns offer valuable insights into the accuracy and reliability of the automated coding for cause of death, allowing users to better understand the text-to-code process.
+If the input file contains textual descriptions, the DORIS tool automatically matches the provided text with the appropriate ICD-11 codes. The tool assigns auto-coding messages and match levels to indicate the quality of the automated coding process. These columns offer valuable insights into the accuracy and reliability of the automated coding for cause of death, allowing users to better understand the text-to-code process.
 
 **ProcessedCauseOfDeathAutoCodingMessage columns**: The messages in these columns provide information about the automated coding process. They indicate if the provided ICD-11 code is a "GoodMatch" (indicating a strong match), a 'fleximatch' (indicating a close match), a match with additional words, or if no proper match was found for the textual entry. These messages assist users in assessing the reliability of the automated coding results.
 
