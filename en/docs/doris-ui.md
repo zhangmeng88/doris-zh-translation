@@ -50,6 +50,27 @@ Users should prepare their data sets following the below templates. These templa
 ### JSON format
 > The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
 
+## 5 simple steps for loading and processing the file 
+
+1. Download the required death certificate format.
+
+2. Open the downloaded file and accurately fill in the information (Refer to the Attributes for Input File section), making sure not to modify the format or change the column order. Preserve the original structure of the file.
+
+3. Launch the DORIS tool.
+
+4. Locate the **select key** to load the file for processing. Choose the file that has been filled in with the cause of death information. Even if thousands of death certificates are loaded, the tool will display the top 400 certificates for a final review, ensuring that all fields are appropriately filled before proceeding with the processing.
+
+![dorisprocessstep1.2_codesonly](img/dorisprocessstep1.2_codesonly.JPG)
+
+5. After selecting the file, click on the **process key** to initiate the file processing. Once the tool completes the task, the processing time will be displayed on the screen, along with a preview of the output file in parallel the output files will be automatically saved in the same location as the input file.
+
+The DORIS tool provides two outputs to enhance the user experience:
+	a. The first output includes the selected underlying cause of death, the sequence followed, and any relevant flags or warnings. This provides users with valuable information about the cause of death selection process.
+
+	b. The second output is specifically designed to be compatible with the ANACoD-3 tool. Users can effortlessly load this output directly into the ANACoD-3 tool for further processing. This eliminates the need to create a new input file that adheres to ANACoD-3 compatibility requirements. 
+
+By following these steps, users can effectively utilize the DORIS Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained and allowing users to benefit from an end-to-end solution using ICD-11 suite of tools.
+
 ## Attributes for Input file
 
 When entering input data, there are specific attributes related to the input fields that should be considered:
@@ -75,21 +96,6 @@ When entering input data, there are specific attributes related to the input fie
 - **Interval**: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
 
 More information can be found [here](https://github.com/ICD-API/electronic-death-certificate-format-tabular)
-
-## Loading the file and processing
-
-1. Start by selecting the specific death certificate format (CSV or JSON) that you require. Click on the needed format and proceed to download it onto the local computer.
-
-2. Once the download is complete, open the downloaded file. It is important to fill in the information accurately, ensuring not to modify the format or change the order of the columns. Maintain the original structure of the file.
-
-3. Launch the DORIS tool on local desktop. Look for the **select key** to load a file for processing and select the file that was filled in with the cause of death information. Even if you load thousands of death certificates, the tool will display the top 400 certificates as a final check that all field are properly filled before clicking on the process.
-
-![dorisprocessstep1.2_codesonly](img/dorisprocessstep1.2_codesonly.JPG)
-
-4. After selecting the file, click on the **process key** to initiate the file processing procedure. Once the tool completes the task, the output file will be automatically saved in the same location as the input file. and the processing time will be shown on the screen along with a sneak peak of the output file and the color coded columns 
-
-By following these steps, users can effectively utilize the DORIS Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained.
-
 ## Checking the output file
 
 TBA
