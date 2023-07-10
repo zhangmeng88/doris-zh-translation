@@ -17,6 +17,8 @@ DORIS installation and launch is a quick and very simple process and involves do
 
 ## Supported modes and file formats
 
+![Supportedmodesfileformatspicture](img/Supportedmodesfileformats.png)
+
 In order to use the DORIS tool effectively, users are required to provide an input file that includes the death certificates they want to process and analyze. The tool will examine the available information and following the ICD mortality rulebase which operates in the background and will automatically determine the underlying cause of death. 
 
 By ensuring that the input file adheres to the required format, the tool can accurately analyze and process the information from the death certificates, providing users with an automatic selection of the underlying cause of death.
@@ -48,7 +50,7 @@ Users should prepare their data sets following the below templates. These templa
 ### JSON format
 > The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
 
-![Supportedmodesfileformatspicture](img/Supportedmodesfileformats.png)
+![dorisuipicture](img/dorisui.png)
 
 ## 5 simple steps for loading and processing the file 
 
@@ -62,7 +64,11 @@ Users should prepare their data sets following the below templates. These templa
 
 ![dorisprocessstep1.2_codesonly](img/dorisprocessstep1.2_codesonly.JPG)
 
-5. After selecting the file, click on the **process key** to initiate the file processing. Once the tool completes the task, the processing time will be displayed on the screen, along with a preview of the output file in parallel the output files will be automatically saved in the same location as the input file. The DORIS tool provides two outputs formats to enhance the user experience.
+5. After selecting the file, click on the **process key** to initiate the file processing. Once the tool completes the task, the processing time will be displayed on the screen, along with a preview of the output file in parallel the output files will be automatically saved in the same location as the input file.
+
+![dorisprocessstep2.1_codesonly](img/dorisprocessstep2.1_codesonly.JPG)
+
+The DORIS tool provides two outputs formats to enhance the user experience.
    - The first output includes the selected underlying cause of death, the sequence followed, and any relevant flags or warnings. This provides users with valuable information about the cause of death selection process.
    - The second output is specifically designed to be compatible with the ANACoD-3 tool. Users can effortlessly load this output directly into the ANACoD-3 tool for further processing. This eliminates the need to create a new input file that adheres to ANACoD-3 compatibility requirements. 
 
