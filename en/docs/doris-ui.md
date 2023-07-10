@@ -62,12 +62,9 @@ Users should prepare their data sets following the below templates. These templa
 
 ![dorisprocessstep1.2_codesonly](img/dorisprocessstep1.2_codesonly.JPG)
 
-5. After selecting the file, click on the **process key** to initiate the file processing. Once the tool completes the task, the processing time will be displayed on the screen, along with a preview of the output file in parallel the output files will be automatically saved in the same location as the input file.
-
-The DORIS tool provides two outputs to enhance the user experience:
-	a. The first output includes the selected underlying cause of death, the sequence followed, and any relevant flags or warnings. This provides users with valuable information about the cause of death selection process.
-
-	b. The second output is specifically designed to be compatible with the ANACoD-3 tool. Users can effortlessly load this output directly into the ANACoD-3 tool for further processing. This eliminates the need to create a new input file that adheres to ANACoD-3 compatibility requirements. 
+5. After selecting the file, click on the **process key** to initiate the file processing. Once the tool completes the task, the processing time will be displayed on the screen, along with a preview of the output file in parallel the output files will be automatically saved in the same location as the input file. The DORIS tool provides two outputs formats to enhance the user experience.
+   - The first output includes the selected underlying cause of death, the sequence followed, and any relevant flags or warnings. This provides users with valuable information about the cause of death selection process.
+   - The second output is specifically designed to be compatible with the ANACoD-3 tool. Users can effortlessly load this output directly into the ANACoD-3 tool for further processing. This eliminates the need to create a new input file that adheres to ANACoD-3 compatibility requirements. 
 
 By following these steps, users can effectively utilize the DORIS Desktop Version to run and process death certificate files, ensuring that the cause of death information is accurately captured and maintained and allowing users to benefit from an end-to-end solution using ICD-11 suite of tools.
 
@@ -96,6 +93,7 @@ When entering input data, there are specific attributes related to the input fie
 - **Interval**: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
 
 More information can be found [here](https://github.com/ICD-API/electronic-death-certificate-format-tabular)
+
 ## Checking the output file
 
 TBA
