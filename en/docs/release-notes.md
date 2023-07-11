@@ -7,6 +7,6 @@
 -	Additional control checks and warnings were introduced. These new features serve to increase the accuracy and reliability of the results.
 -	AN ANACOD-3 compatible output was introduced as an additional output option from DORIS. This update ensures easier integration with other systems and workflows, enhancing the overall efficiency of data processes.
 -	The digital mortality rule base has undergone substantial improvements and clarifications based on the invaluable feedback received during MRD workshops. These enhancements further optimize the performance and reliability of DORIS.
--	The DORIS  online user guide is now available
+-	The DORIS  online user guide is now available.
 -   The rules that are used by the tool are now maintained by using our Mortality Rules Authoring platform.
 
