@@ -93,13 +93,15 @@ A more detailed explanation of the Input file can be found in the [Excel and CSV
 
 - **Estimated age** When providing an estimated age for an individual, this attribute should be represented in the specified duration format. If only numbers are filled in the column, the tool will assume that the age is provided in years. 
 
-- **Cause of Death**: This attribute can be completed in Part 1 and Part 2 using any of the following methods:
+- **Cause of Death**: This attribute can be completed in Part 1 and Part 2 using any of the following methods (i.e.either code, URI or text is sufficient for the system to function)
 
 	1. **Textual description**: Users have the option to provide a plain text description of the cause of death. In this case, they should fill in the corresponding columns in the input file, 	such as CauseOfDeathTextA, CauseOfDeathTextB, CauseOfDeathTextPart2, and so on.
 
 	2. **ICD-11 codes**: Users can enter ICD-11 codes separated by commas. They should fill in the corresponding columns in the input file, such as CauseOfDeathA, CauseOfDeathB, 			CauseOfDeathPart2, and so forth. Post-coordination is allowed, meaning that different codes can be combined, for example, "Stem code A & Ext code / Stem code B".
 
 	3. **URIs**: For ICD-11, users have the option to provide URIs (Uniform Resource Identifiers) for cause fields, separated by commas. They should fill in the corresponding columns in the input file, such as CauseOfDeathURIA, CauseOfDeathURIB, CauseOfDeathURIPart2, and so on. Post-coordination is allowed.
+
+	
 
 - **Interval**: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
 
