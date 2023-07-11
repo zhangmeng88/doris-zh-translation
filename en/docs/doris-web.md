@@ -30,7 +30,7 @@ Frame B consists of the following fields:
 
 **Place of occurrence** of the external cause: specify the place where the external cause (e.g., accident, injury) occurred. This information is essential for accurately documenting the circumstances surrounding the death.
 
-**Fetal or Infant Death**: Fill in the needed information on multiple pregnancy, stillbirth specifying the number of hours survived if applicable, birth weight, number of completed weekd of prgnancy, age of the mother and if the death was perinatal, conditions of mother that affected the fetous should be specified. 
+**Fetal or Infant Death**: Fill in the needed information on multiple pregnancy, stillbirth specifying the number of hours survived if applicable, the birth weight, the number of completed weeks of pregnancy, the age of the mother and if the death was perinatal, the conditions of the mother that affected the fetous should be specified. 
 
 ![fetalinfantdeathscreenshotpicture ](img/fetalinfantdeathscreenshot.png)
 
@@ -44,7 +44,7 @@ For women:
 
 ![pregnancyscreenshotpicture ](img/pregnancyscreenshot.png)
 
-To demonstrate the functionality of the DORIS web version, an **examples form** key provides a few sample examples to showcase how the web version operates. Users can refer to these examples to understand how to use the web version effectively.
+To demonstrate the functionality of the DORIS web version, an **examples form** key provides a few examples to showcase how the web version operates. Users can refer to these examples to understand how to use the web version effectively.
 
 Additionally, the **clear content** key was introduced. By clicking on this key, users can initiate a fresh death certificate with all the fields cleared, allowing them to start with a new entry without any existing data.
 
