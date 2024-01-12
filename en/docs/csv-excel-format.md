@@ -88,7 +88,7 @@ Note: CauseOfDeath fields can be provided either as code, URI or text. we have i
 | `CertificateKey` | _input_ | `string` | Can be used to identify the certificate. |
 | `ICDVersion` | _input_ | `string` | Specify the ICD revision used for the coding of the certificate. DORIS currently supports `ICD11`  |
 | `ICDMinorVersion` | _input_ | `string` | Specify the ICD minor version used for the coding of the certificate associated to the ICD version. |
-| `Sex` | _input_ | `string` | 1:Male, - 2:Female, - 9:Unknown |
+| `Sex` | _input_ | `string` | 1: Male, 2: Female, 9: Unknown |
 | `DateBirth` | _input_ | `date` | _see date format above_ |
 | `DateDeath` | _input_ | `date` | _see date format above_ |
 | `EstimatedAge` | _input_ | `durations` | _see durations format above_ |
@@ -115,11 +115,25 @@ Note: CauseOfDeath fields can be provided either as code, URI or text. we have i
 | `CauseOfDeathTextPart2` | _input_ | `string` | Cause field Part2. Textual conditions. |
 | `CauseOfDeathCodePart2` | _input_ | `string` | Cause field Part2. Classification codes comma separated. Its allowed to use post coordination, i.e. “Stem A & Ext 1 / Stem B”. |
 | `CauseOfDeathURIPart2` | _input_ | `string` | Cause field Part2. Classification URI comma separated. Its allowed to use post coordination, i.e. “Stem A & Ext 1 / Stem B”. |
-| `SurgeryWasPerformed` | _input_ | `integer` | 0: No, - 1: Yes, -  9: Unknown |
+| `SurgeryWasPerformed` | _input_ | `integer` | 0: No, 1: Yes, 9: Unknown |
+| `SurgeryDate` | _input_ | `date` | _see date format above_ |
+| `SurgeryReason` | _input_ | `string` | If yes, specify reason for surgery (disease or condition). |
+| `AutopsyWasRequested` | _input_ | `integer` | 0: No, 1: Yes, 9: Unknown |
+| `AutopsyFindings` | _input_ | `integer` | 0: No, 1: Yes, 9: Unknown |
 | `MannerOfDeath` | _input_ | `integer` | 0: Disease, 1: Accident, 2: Intentional self harm, 3: Assault, 4: Legal intervention, 5: War, 6: Could not be determined, 7: Pending investigation, 9: Unknown |
-| `MaternalDeathWasPregnant` | _input_ | `integer` | 0: No, - 1: Yes, -  9: Unknown |
-| `MaternalDeathTimeFromPregnancy` | _input_ | `integer` | 0: "At time of death", - 1: "Within 42 days before the death", - 2: "Between 43 days up to 1 year before death", - 3: "One year or more before death", -  9: Unknown |
-| `MaternalDeathPregnancyContribute` | _input_ | `integer` |  0: No, - 1: Yes,  - 9: Unknown  |
+| `MannerOfDeathDateOfExternalCauseOrPoisoning` | _input_ | `date` | _see date format above_ |
+| `MannerOfDeathDescriptionExternalCause` | _input_ | `string` | Description external cause. |
+| `MannerOfDeathPlaceOfOccuranceExternalCause` | _input_ | `integer` | 0: At home, 1: Residential institution, 2: School, other institution, public administration area, 3: Sports and athletics area, 4: Street and highway, 5: Trade and service area, 6: Industrial and construction area, 7: Farm, 8: Other place, 9: Unknown |
+| `FetalOrInfantDeathMultiplePregnancy` | _input_ | `integer` | 0: No, 1: Yes, 9: Unknown |
+| `FetalOrInfantDeathStillborn` | _input_ | `integer` | 0: No, 1: Yes, 9: Unknown |
+| `FetalOrInfantDeathDeathWithin24h` | _input_ | `integer` | If death within 24h specify number of hours survived. |
+| `FetalOrInfantDeathBirthWeight` | _input_ | `integer` | Birth weight (in grams). |
+| `FetalOrInfantDeathPregnancyWeeks` | _input_ | `integer` | Number of completed weeks of pregnancy. |
+| `FetalOrInfantDeathAgeMother` | _input_ | `integer` | Age of mother (years). |
+| `FetalOrInfantDeathPerinatalDescription` | _input_ | `string` | If death was perinatal, please state condition of mother that affected the fetus and newborn. |
+| `MaternalDeathWasPregnant` | _input_ | `integer` | 0: No, 1: Yes, 9: Unknown |
+| `MaternalDeathTimeFromPregnancy` | _input_ | `integer` | 0: "At time of death", 1: "Within 42 days before the death", 2: "Between 43 days up to 1 year before death", 3: "One year or more before death", 9: Unknown |
+| `MaternalDeathPregnancyContribute` | _input_ | `integer` |  0: No, 1: Yes, 9: Unknown  |
 | `UnderlyingCauseOfDeath` | _input_ | `string` | Manually assigned underlying cause of death provided as code (optional)|
 | `UnderlyingCauseOfDeathURI` | _input_ | `string` | Manually assigned underlying cause of death provided as a linearization URI (optional) | 
 | `Reject` | _output_ | `boolean` | `false` if the computation was able to select the underlying cause of death, `true` otherwise. The computation can fail for multiple reasons (codes not found in the specific linearization, implausibility of the coding, errors of the system.). The reason can be identified in the file logger or rule logger fields. |
