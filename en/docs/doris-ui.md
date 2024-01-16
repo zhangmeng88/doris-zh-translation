@@ -24,13 +24,13 @@ By ensuring that the input file adheres to the required format, the tool can acc
 
 ### Supported input files are text and code mode.
 
-The DORIS tool can handle two distinct input modes: text and ICD-11 code. 
+The DORIS tool can handle both coded death certificates as well as textual certificates. 
 
-This versatility allows users to choose between entering the cause of death information in a text format or utilizing ICD-11 pre-coded data sets for efficient processing. By accommodating both input modes, the tool caters to different user preferences and data availability in countries.
+It is much better to use coded data if you have them as the text-to-code processing is never 100% reliable. However, if you don't have coded data, the tool provides the flexibility to work with textual data as well. In this case, you're suggested to check the automatically coded data especially when the coded data is not marked as "GoodMatch" (see autocoding fields of the output file below). 
 
 ![textcodemodessupportedpicture ](img/textcodemodessupported.png)     
 
-### Supported file formats are Excel, CSV, and JSON.
+### Supported file formats 
 
 By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures compatibility and ease of use for users working with different data sources. 
 
@@ -38,24 +38,21 @@ By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures com
 
 ![fileformatsupportedpagepicture ](img/fileformatsupported.png)    
 
-Users should prepare their data sets following the below templates. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By clicking on the needed file format below, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
-
-### Detailed Format specification
-
-#### Tabular (Excel, CSV)
+#### Tabular format specification (Excel, CSV)
 The detailed specification for the tabular format (Excel or CSV) can be found here:
 [Excel and CSV Format specification](csv-excel-format.md)
 
-#### JSON format
+#### JSON format specification
 > The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md)
 
-### Sample Files
-#### Excel format    
+#### Sample Files
+Users could prepare their data sets based on the following template files. These templates are specifically designed to ensure compatibility and proper data input in the DORIS tool. By clicking on the needed file format below, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
+
+##### Sample Excel file
 > For a sample in Excel file click here: [Sample Excel file](sample.xlsx)
 
-#### CSV format 
+##### Sample CSV file
 > For a sample in Excel file click here: [Sample CSV File](sample.csv)
-
  
 
 ![DORIS UI Screenshot](img/dorisuiscreen.png)
@@ -93,13 +90,13 @@ A more detailed explanation of the Input file can be found in the [Excel and CSV
 
 - **(ICD) version**: Users must specify the version of the  International Classification of Diseases (ICD) that was used to code the certificate. The current supported version is ICD-11.
 
-- **Sex**: This attribute denotes the sex of the individual. The value "1" corresponds to Male, "2" corresponds to Female, and "9" corresponds to Unknown. Please note that while the tool accepts "M" for Male and "F" for Female at the input stage, it will automatically convert them to "1" and "2" respectively to align with the required ANACOD-3 output for subsequent stages of data management and visulatization.
+- **Sex**: This attribute denotes the sex of the individual. The value "1" corresponds to Male, "2" corresponds to Female, and "9" corresponds to Unknown. Please note that while the tool accepts "M" for Male and "F" for Female at the input stage, it will automatically convert them to "1" and "2" respectively to align with the required ANACOD-3 output for subsequent stages of data management and visualization.
 
 - **Date of birth and date of death**: Users should adhere to the specified date format when entering the dates of birth and death.
 
 - **Estimated age** When providing an estimated age for an individual, this attribute should be represented in the specified duration format. If only numbers are filled in the column, the tool will assume that the age is provided in years. 
 
-- **Cause of Death**: This attribute can be completed in Part 1 and Part 2 using any of the following methods (i.e.either code, URI or text is sufficient for the system to function)
+- **Cause of Death**: This attribute can be completed in Part 1 and Part 2 using any of the following methods (either code, URI or text is sufficient for the system to function)
 
 	1. **Textual description**: Users have the option to provide a plain text description of the cause of death. In this case, they should fill in the corresponding columns in the input file, 	such as CauseOfDeathTextA, CauseOfDeathTextB, CauseOfDeathTextPart2, and so on.
 
@@ -112,13 +109,13 @@ A more detailed explanation of the Input file can be found in the [Excel and CSV
 - **Interval**: Users can specify the time interval from the onset of the condition leading to death to the actual time of death. The interval should be represented in the specified duration format.
 
 
-## Additional Attributes of the Output file
+## Additional Attributes of the Output File
 
 The output file generated by the DORIS tool includes various fields with specific attributes that provide valuable information for user guidance. Here is a detailed explanation of each field:
 
 **Reject column**: This field indicates whether a certificate has been accepted or rejected. Results will be marked as 'True' or 'False'.
 - An entry marked as 'False' means the certificate was accepted and the underlying cause of death was provided.
-- An entry is marked as 'True' indicates rejection and the certificate has been flagged for manual review. Rejection can occur due to various reasons, such as ICD-11 codes not being found in the linearization, typographical errors, implausible coding, system errors, and more.
+- An entry marked as 'True' indicates rejection and the certificate has been flagged for manual review. Rejection can occur due to various reasons, such as ICD-11 codes not being found in the linearization, typographical errors, implausible coding, system errors, and more.
 
 **Report column**: This field provides an overview of the steps applied by the rule engine to select the underlying cause of death. It offers insights into the processes and mortality rules employed in determining the cause of death based on the available information.
 
