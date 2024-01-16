@@ -40,17 +40,23 @@ By supporting multiple file formats Excel, CSV, and JSON, DORIS tool ensures com
 
 Users should prepare their data sets following the below templates. These template are specifically designed to ensure compatibility and proper data input in the DORIS tool. By clicking on the needed file format below, users can easily download the template and utilize it as a guideline for preparing their input file, ensuring that it meets the required format and structure. 
 
-### Tabular formats
-The detailed structure of the tabular format (Excel or CSV) could be found here:
+### Detailed Format specification
+
+#### Tabular (Excel, CSV)
+The detailed specification for the tabular format (Excel or CSV) can be found here:
 [Excel and CSV Format specification](csv-excel-format.md)
+
+#### JSON format
+> The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md)
+
+### Sample Files
 #### Excel format    
-> For a sample in Excel file click here: [Excel Format Specifications](sample.xlsx)
+> For a sample in Excel file click here: [Sample Excel file](sample.xlsx)
 
 #### CSV format 
-> For a sample in Excel file click here: [CSV Format Specifications](sample.csv)
+> For a sample in Excel file click here: [Sample CSV File](sample.csv)
 
-### JSON format
-> The JSON format is based on the standard [Death Certificate Exchange Format](json-format.md) 
+ 
 
 ![DORIS UI Screenshot](img/dorisuiscreen.png)
 
