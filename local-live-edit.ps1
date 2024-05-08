@@ -8,3 +8,4 @@ docker run -ti `
            polinux/mkdocs 
 # If it is already created, make sure it's running
 docker start doris-mkdocs
+# http://localhost:8080

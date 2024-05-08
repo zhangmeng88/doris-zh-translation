@@ -1,18 +1,9 @@
-# DORIS Desktop Version for batch processing 
+# DORIS Desktop Version
 
 
-DORIS Desktop Version is a desktop software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates and supports multiple formats, Excel, CSV, and JSON.
+DORIS Desktop is a software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates. It allows importing certificates from multiple formats, Excel, CSV, and JSON.
 
 ![dorisuipicture](img/dorisui.png)
-
-## Download and quick installation
-
-The DORIS UI desktop software for batch processing can be downloaded from the following link:
-
-- Version 1.0 Release Candidate 1 
-	- Download link for Windows: [DorisUI_1.0.0-rc.1_windows_x64.msix](https://icdcdn.who.int/doris/DorisUI_1.0.0-rc.1_windows_x64.msix)
-
-DORIS installation and launch is a quick and very simple process and involves double-clicking on the downloaded file and following the on-screen instructions. 
 
 ## Supported modes and file formats
 

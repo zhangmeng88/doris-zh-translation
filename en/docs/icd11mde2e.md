@@ -11,11 +11,12 @@ As part if ICD-11 end-to-end solution for mortality reporting, WHO developed a s
 
 The medical certificate of cause of death is the basis for collecting information on causes of death. The form is designed to collect all relevant aspects to assigning the cause of death and is independent of the revision of ICD. In addition to the paper form template in section 3.14, the technical specifications for a digital form are made available. The specifications serve to standardize input in line with the standard form and include a data dictionary for field names and content-encoding that allows processing the content with the API for coding, as well as with software for selection of the single underlying cause of death.
 
+
 ## ICD-11 Browser and coding tool
 
 ICD-11 offers in various languages a browser known as the "blue browser" for ICD-11 and a smart coding tool. They can be accessed from ICD-11 homepage and enable users to search for diagnoses, index terms, concepts, anatomy, synonyms, or any other elements within the content of ICD-11.
 
- > For more information click [here](https://icd.who.int/browse11/l-m/en)
+ > For more information click [here](https://icd.who.int/browse)
 
 ## WHO Digital Open Rule Integrated cause of death Selection DORIS tool
 

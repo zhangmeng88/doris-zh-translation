@@ -4,15 +4,19 @@ This is a specific format used by the [Doris Tool](https://icd.who.int/doris) as
 
 This format can be used as an Excel (.xlsx) file or as a comma separated text file (.csv). 
 
-You may find small sample files here:
+## Sample Files
+You may download small sample files from here:
+### Sample Excel File
 - [Excel sample (.xlsx)](sample.xlsx)
+
+### Sample CSV File
 - [Comma separated text file sample (.csv)](sample.csv)
 
 Detailed descriptions of the fields are explained below:
 
-## Data type
+## Used Data types
 
-The data type used are:
+The data types used are:
 
 | Type | Description |
 | --- | --- |
