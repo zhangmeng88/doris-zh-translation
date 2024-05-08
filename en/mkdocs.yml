@@ -28,11 +28,10 @@ nav:
     - DORIS:
         - General Information: 'index.md'
         - Mortality digital end-to-end solution: 'icd11mde2e.md'
-        - Release Notes: 'release-notes.md'
+        - Overview: 'overview.md'
     - Web Version: 
         - Doris Web: 'doris-web.md'
     - DORIS Desktop: 
-        - Overview: 'doris-desktop-overview.md'
         - Download and Installation: 'download-installation.md'
         - Using DORIS Desktop: 'user-guide.md'
         - Supported File Formats: 'supported-file-formats.md'
