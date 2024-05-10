@@ -17,7 +17,7 @@
   - **DORIS Desktop Version for batch processing** is a desktop software that can be installed on local computers. It is designed to allow effortless batch processing of large volumes of death certificates. Whether working with text or code modes, this software analyzes thousands of death certificates and supports multiple formats, Excel, CSV, and JSON.
  > To learn more about the desktop version, refer to [here](doris-ui.md)
   
-  - Additionally, you can access DORIS through an **DORIS API (Application Programming Interface)**. Although currently in a pre-release version, this feature enables integration with other systems or applications.
-> Information regarding the API can be found at [ICD-API](https://icd.who.int/icdapi) with further details available [here](doris-api.md)
+  - **Integration with other Software:** In addition to the software mentioned above, you can access DORIS through **ICD API (Application Programming Interface)**. This feature enables easy integration with other systems or applications.
+> [More information on using DORIS via ICD-API](doris-api.md)
 
   ![dorishomepagepicture ](img/dorishomepage.png)
