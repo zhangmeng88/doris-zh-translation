@@ -32,8 +32,8 @@ nav:
     - Web Version: 
         - Doris Web: 'doris-web.md'
     - DORIS Desktop: 
-        - Download and Installation: 'download-installation.md'
-        - Using DORIS Desktop: 'user-guide.md'
+        - Download and Installation: 'doris-desktop-download-installation.md'
+        - Using DORIS Desktop: 'doris-desktop-user-guide.md'
         - Supported File Formats: 'supported-file-formats.md'
     - Using DORIS from other software: 
         - Using DORIS from ICD-API: 'doris-api.md'

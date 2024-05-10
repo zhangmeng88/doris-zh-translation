@@ -41,7 +41,9 @@ This information contains the number of certificates, whether the data contains 
 
 
 ### Working with certificates that use textual data
-If the imported data does not contain codes but textual conditions, then the tool will add codes using text-to-code processing during the importing phase. This process places the auto-assigned codes in the `Code(auto)` column in the tool together with an additional column `Match` that shows the quality of the text-to-code matching process. We suggest all matching levels except for `GoodMatch` need to be manually checked by experts.
+If the imported data does not contain codes but textual conditions, then the tool will add codes using text-to-code processing during the importing phase. This process places the auto-assigned codes in the `Code(auto)` column in the tool together with an additional column `Match` that shows the quality of the text-to-code matching process.
+
+We suggest that automatic text to code conversions are checked by experts especially when the match is not a `GoodMatch` 
 ![Text to code columns](img/texttocode-columns.png){: style="width:60%"}
 
 Text-to-code conversion issues button can be used to easily filter out the cases that contain text-to-code processing with non-GoodMatch results.
@@ -109,6 +111,7 @@ It is possible to use another version of ICD-11 during the processing of the cer
 
 2023 and 2024 versions of ICD-11 are supported by DORIS.
 
+IMPORTANT! Changing the ICD version requires an Internet connection if the version that is selected has not been used before as the system needs to download that version of ICD.
 
 
 ### Changing the default Doris dataset folder
@@ -117,3 +120,5 @@ By default, the Doris datasets are created under the Documents folder in Windows
 ## Exporting Data
 Exporting data in the supported formats is possible using the `Data`/`Export xxxx` menu items
 ![Export](img/export.png){: style="width:20%"}
+
+The system then asks you where to save the file as well as the file name.
