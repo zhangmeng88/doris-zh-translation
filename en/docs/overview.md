@@ -1,6 +1,3 @@
-# DORIS Overview
-
-
 
 ![dorisuipicture](img/dorisui.png)
 
