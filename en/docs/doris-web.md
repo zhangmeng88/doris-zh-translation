@@ -1,6 +1,6 @@
 # DORIS Web Version
 
-DORIS Web Version is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for cause of death selection. The web version can be accessed at: https://icd.who.int/doris/tool
+DORIS Web Version is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for cause of death selection. The web version can be accessed at: [https://icd.who.int/doris/workspace/en](https://icd.who.int/doris/workspace/en). It is available in the 10 officially released ICD-11 languages, including Arabic, Chinese, Czech, English, French, Portuguese, Russian, Spanish, Turkish, and Uzbek. To switch between languages use the language key at the top right corner of the sreen. 
 
 ![DORIS Web screenshot picture ](img/DORISweb24.png)
 
