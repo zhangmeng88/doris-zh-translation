@@ -1,5 +1,5 @@
 
-**DORIS: Empowering Global Cause of Death Data Management with ICD-11**
+**DORIS: Empowering global cause of death data management with ICD-11**
 
 DORIS, the Digital Open Rule Integrated Software designed to automate the selection of the underlying cause of death using ICD-11. DORIS represents an innovative, multilingual software solution designed to modernize death certificate processing and enhance global cause of death data management.
 
@@ -11,28 +11,28 @@ Aligned with the established mortality rules and standards of the ICD-11 referen
 
 **Key Highlights:**
 
-**- Semantic Interoperability and Unrestricted Access:**
+**- Semantic interoperability and unrestricted access:**
 Similar to all other ICD-11 tools, DORIS is freely accessible and ensures semantic interoperability, operating in both online and offline settings. This enables cause of death data to be shared, integrated, and analyzed across diverse platforms and contexts.
 
-**- Multilingual Capabilities:**
+**- Multilingual capabilities:**
 DORIS offers support for 10 officially released ICD-11 languages, including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru), [Spanish](https://icd.who.int/doris/es), [Turkish](https://icd.who.int/doris/tr), and [Uzbek](https://icd.who.int/doris/uz). Furthermore, as the range of ICD-11 languages expands, so will the language options within DORIS, ensuring accessibility and inclusivity for users worldwide.
 
-**- Customizable Configuration Options:**
+**- Customizable configuration options:**
 Users can tailor their DORIS experience with customizable settings for language preferences and ICD-11 version adjustments. This flexibility ensures a personalized user experience that aligns with national needs and organizational requirements, further enhancing usability and efficiency.
 
-**- Follows the ICD-11 Update Cycle for Effortless Maintenance:**
+**- Follows the ICD-11 update cycle for effortless maintenance:**
 DORIS remains at the forefront of advancements in scientific knowledge by meticulously following the ICD-11 update cycles, ensuring smooth and efficient maintenance processes. By staying synchronized with the latest updates, DORIS guarantees continuous alignment with evolving classification updates and best practices in cause of death data management.
 
-**- Efficient Data Importation and Management:**
+**- Efficient data importation and management:**
 With DORIS, users can effortlessly import death certificates in various formats, including standard Medical Certificate of Cause of Death (MCCD) in JSON, Excel, and CSV, facilitating efficient data management and ensuring adherence to ICD-11 international coding standards. DORIS computes the underlying cause of death for individual certificates and has the ability to handle thousands of death certificates.
 
-**- Automated Text-to-Code Conversion:**
+**- Automated text-to-code conversion:**
 DORIS streamlines the coding process by automatically converting textual diagnoses into ICD-11 codes during importation in text mode or runs in code mode for ICD-11 coded death certificates. This feature enhances accuracy and consistency in mortality data interpretation and coding.
 
-**- Improved Workflow Efficiency with DORIS:**
+**- Improved workflow efficiency with DORIS:**
 From death certificate view mode available in both web and desktop version for detailed examination to effortless filtering, sorting, and processing options, DORIS empowers users to optimize their workflow and maximize efficiency while ensuring compliance with ICD-11 international coding standards.
 
-**- Simple Data Exportation:**
+**- Simple data exportation:**
 DORIS simplifies the data export process, allowing users to export certificates in supported formats for analysis and sharing. DORIS provides two distinct outputs: one that details the rules applied and the UCOD selected, and one that is fully compatible with the ANACoD-3 tool for analysis of mortality and cause-of-death data.
 
 Whether for research, surveillance, or policy development, DORIS facilitates the dissemination of mortality data while maintaining data integrity and compliance with international standards.
