@@ -48,9 +48,7 @@ To demonstrate the functionality of the DORIS web version, an **examples form** 
 
 Additionally, the **clear content** key was introduced. By clicking on this key, users can initiate a fresh death certificate with all the fields cleared, allowing them to start with a new entry without any existing data.
 
-To compute the required Underlying Cause of Death (UCOD), users should simply click on the '**Compute**' button. This action will generate the necessary information based on the entered data, helping users select the underlying cause of death.
-
-![controlsscreenshotpicture ](img/controlsscreenshot.png)
+To process the required Underlying Cause of Death (UCOD), users should simply click on the '**Process**' button. This action will generate the necessary information based on the entered data, helping users select the underlying cause of death.
 
 **Output section** 
 
@@ -61,4 +59,3 @@ The report includes a **warnings** field, which flags any inconsistencies in the
 
 Following the warnings, a concise report outlines the main steps that were applied. For a more detailed understanding, a full report is also included in the output section. This comprehensive report provides a thorough explanation of the sequence followed, along with detailed information about the mortality rules and steps that were applied or not during the selection of the underlying cause of death.
 
-![outputscreenshotpicture ](img/outputscreenshot.png)
