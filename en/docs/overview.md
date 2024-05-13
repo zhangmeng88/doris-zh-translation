@@ -15,7 +15,7 @@ Aligned with the established mortality rules and standards of the ICD-11 referen
 Similar to all other ICD-11 tools, DORIS is freely accessible and ensures semantic interoperability, operating in both online and offline settings. This enables cause of death data to be shared, integrated, and analyzed across diverse platforms and contexts.
 
 **- Multilingual Capabilities:**
-DORIS offers support for 10 officially released ICD-11 languages, including Arabic, Chinese, Czech, English, French, Portuguese, Russian, Spanish, Turkish, and Uzbek. Furthermore, as the range of ICD-11 languages expands, so will the language options within DORIS, ensuring accessibility and inclusivity for users worldwide.
+DORIS offers support for 10 officially released ICD-11 languages, including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru), [Spanish](https://icd.who.int/doris/es), [Turkish](https://icd.who.int/doris/tr), and [Uzbek](https://icd.who.int/doris/uz). Furthermore, as the range of ICD-11 languages expands, so will the language options within DORIS, ensuring accessibility and inclusivity for users worldwide.
 
 **- Customizable Configuration Options:**
 Users can tailor their DORIS experience with customizable settings for language preferences and ICD-11 version adjustments. This flexibility ensures a personalized user experience that aligns with national needs and organizational requirements, further enhancing usability and efficiency.
