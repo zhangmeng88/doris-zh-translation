@@ -1,6 +1,4 @@
 
-![dorisuipicture](img/dorisui.png)
-
 **DORIS: Empowering Global Cause of Death Data Management with ICD-11**
 
 DORIS, the Digital Open Rule Integrated Software designed to automate the selection of the underlying cause of death using ICD-11. DORIS represents an innovative, multilingual software solution designed to modernize death certificate processing and enhance global cause of death data management.
@@ -8,6 +6,8 @@ DORIS, the Digital Open Rule Integrated Software designed to automate the select
 Developed in collaboration with numerous countries and mortality experts from the Family of International Classification Network (WHO-FIC Network), DORIS stands as an integral component of the WHO's comprehensive digital solution for mortality reporting. It shares core functionality and features of ICD-11, recognized as the gold standard in health data management and reporting.
 
 Aligned with the established mortality rules and standards of the ICD-11 reference guide, a legacy spanning 150 years, DORIS plays a important role in shaping health policy, optimizing resource allocation, and driving research endeavors by improving mortality coding and reporting.
+
+![dorisdesktoppicture](img/Desktopversion24.png)
 
 **Key Highlights:**
 
