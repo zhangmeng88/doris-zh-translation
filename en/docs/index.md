@@ -20,4 +20,4 @@
   - **Integration with other Software:** In addition to the software mentioned above, you can access DORIS through **ICD API (Application Programming Interface)**. This feature enables easy integration with other systems or applications.
 > [More information on using DORIS via ICD-API](doris-api.md)
 
-  ![dorishomepagepicture ](img/dorishomepage24.png)
+  ![dorishomepagepicture ](img/DORIShomepage24.png)
