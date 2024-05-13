@@ -125,4 +125,4 @@ Exporting data in the supported formats is possible using the `Data`/`Export xxx
 
 The system then asks you where to save the file as well as the file name.
 
-After you export the ANACOD output, you need to fill in the columns with the national or local information i.e the year, the ISO country code, etc.
+After you export the ANACOD output, you need to fill in the columns with the national or local information i.e the year, the ISO country code, etc. before you import in ANACoD-3 tool. 
