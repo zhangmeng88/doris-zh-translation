@@ -58,6 +58,8 @@ To process the required Underlying Cause of Death (UCOD), users should simply cl
 
 Once the Underlying Cause of Death (UCOD)is selected, it will be presented in the **output** section which includes two distinct fields related to the **underlying cause of death.** The first field represents the single underlying cause of death that was selected based on the information provided and is highlighted in yellow to draw the attention of the users. Additionally, if available, the output section also includes a field for the **cluster underlying cause of death**. This field indicates the postcoordinated codes if applicable providing further context and details. 
 
+![outputdetailedexplanationsscreenshotpicture ](img/outputdetailedexplanationscreenshot.png)
+
 Furthermore, within the output section, a report is provided to illustrate the steps and mortality rules that were applied in the selection of the underlying cause of death. 
 The report includes a **warnings** field, which flags any inconsistencies in the reported information or suggests the need for manual verification. 
 
