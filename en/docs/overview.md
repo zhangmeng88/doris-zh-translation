@@ -32,4 +32,4 @@ Empowering Research, Surveillance, and Policy Development
 DORIS not only facilitates the dissemination of mortality data but also ensures data integrity and compliance with ICD-11 international standards. Embrace the future of cause of death data management with DORIS.
 
 
-[Instructions on downloading and installing DORIS Desktop](download-installation.md)
+[Instructions on downloading and installing DORIS Desktop](doris-desktop-download-installation.md)
