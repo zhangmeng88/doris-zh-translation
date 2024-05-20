@@ -1,6 +1,10 @@
 # DORIS Web Version
 
-DORIS Web Version is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for cause of death selection. The web version can be accessed at: [https://icd.who.int/doris/workspace/](https://icd.who.int/doris/workspace/en). It is available in the 10 officially released ICD-11 languages, including including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru), [Spanish](https://icd.who.int/doris/es), [Turkish](https://icd.who.int/doris/tr), and [Uzbek](https://icd.who.int/doris/uz). To switch between languages use the language key at the top right corner of the sreen. 
+DORIS Web Version is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for cause of death selection. The web version can be accessed [here](https://icd.who.int/doris/workspace/en). 
+
+It is available in the 10 officially released ICD-11 languages, including including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru), [Spanish](https://icd.who.int/doris/es), [Turkish](https://icd.who.int/doris/tr), and [Uzbek](https://icd.who.int/doris/uz). 
+
+To switch between languages use the language key at the top right corner of the sreen. 
 
 ![DORIS Web screenshot picture ](img/DORISweb24.png)
 
@@ -8,7 +12,7 @@ Provide the required information about the deceased individual.
 
 **Administrative Data**: Fill in the following details - Sex, Date of Birth, Date of Death, and Estimated Age (in years, months, weeks, days, hours, minutes, or seconds), or leave it unknown.
 
-![Administrativedatascreenshot picture ](img/administrativedatascreenshot.png)
+![Administrativedatascreenshot picture ](img/administrativedatascreenshotupdated.png)
 
 In Frame A, the **Medical Data** fields are associated with the ICD-11 coding tool, allowing users to search by term or by ICD-11 code.
 
@@ -16,17 +20,17 @@ Part 1: Cause(s) of Death - Complete Line a, b, c, and d along with their respec
 
 Part 2:  Indicate any other significant conditions contributing to the death, along with their corresponding time intervals. In this section, time intervals can be assigned separately for each reported condition. To do so, users need to search for the condition by term or ICD-11 code using the coding tool then assign the relevant time interval after selecting the condition.
 
-![FrameAmedicaldatascreenshotpicture ](img/FrameAmedicaldatascreenshot.png)
+![FrameAmedicaldatascreenshotpicture ](img/FrameAmedicaldatascreenshotupdated.png)
 
 Frame B consists of the following fields:
 
 **Details of Surgery**: Provide any relevant information about surgeries performed on the deceased by answering the questions.
 
-![surgeryscreenshotpicture ](img/surgeryscreenshot.png)
+![surgeryscreenshotpicture ](img/surgeryandautopsyscreenshot.png)
 
 **Manner of Death**: Specify the manner in which the death occurred (e.g., natural, accident, suicide, homicide).
 
-![Mannerofdeathscreenshotpicture ](img/Mannerofdeathscreenshot.png)
+![Mannerofdeathscreenshotpicture ](img/manneofdeathscreenshotupdated.png)
 
 **Place of occurrence** of the external cause: specify the place where the external cause (e.g., accident, injury) occurred. This information is essential for accurately documenting the circumstances surrounding the death.
 
@@ -42,7 +46,7 @@ For women:
 
 **Contribution of Pregnancy to Death**: Determine if the pregnancy played a role in the woman's death. 
 
-![pregnancyscreenshotpicture ](img/pregnancyscreenshot.png)
+![pregnancyscreenshotpicture ](img/pregnancyscreenshotupdated.png)
 
 To demonstrate the functionality of the DORIS web version, an **examples form** key provides a few examples to showcase how the web version operates. Users can refer to these examples to understand how to use the web version effectively.
 
