@@ -6,13 +6,13 @@ It is available in the 10 officially released ICD-11 languages, including includ
 
 To switch between languages use the language key at the top right corner of the sreen. 
 
-![DORIS Web screenshot picture ](img/DORISweb24.png)
+![DORIS Web screenshot picture ](img/DORISweb24.png){: style="width:40%"}
 
 Provide the required information about the deceased individual.
 
 **Administrative Data**: Fill in the following details - Sex, Date of Birth, Date of Death, and Estimated Age (in years, months, weeks, days, hours, minutes, or seconds), or leave it unknown.
 
-![Administrativedatascreenshot picture ](img/administrativedatascreenshotupdated.png)
+![Administrativedatascreenshot picture ](img/administrativedatascreenshotupdated.png){: style="width:40%"}
 
 In Frame A, the **Medical Data** fields are associated with the ICD-11 coding tool, allowing users to search by term or by ICD-11 code.
 
@@ -20,23 +20,23 @@ Part 1: Cause(s) of Death - Complete Line a, b, c, and d along with their respec
 
 Part 2:  Indicate any other significant conditions contributing to the death, along with their corresponding time intervals. In this section, time intervals can be assigned separately for each reported condition. To do so, users need to search for the condition by term or ICD-11 code using the coding tool then assign the relevant time interval after selecting the condition.
 
-![FrameAmedicaldatascreenshotpicture ](img/FrameAmedicaldatascreenshotupdated.png)
+![FrameAmedicaldatascreenshotpicture ](img/FrameAmedicaldatascreenshotupdated.png){: style="width:40%"}
 
 Frame B consists of the following fields:
 
 **Details of Surgery**: Provide any relevant information about surgeries performed on the deceased by answering the questions.
 
-![surgeryscreenshotpicture ](img/surgeryandautopsyscreenshot.png)
+![surgeryscreenshotpicture ](img/surgeryandautopsyscreenshot.png){: style="width:40%"}
 
 **Manner of Death**: Specify the manner in which the death occurred (e.g., natural, accident, suicide, homicide).
 
-![Mannerofdeathscreenshotpicture ](img/manneofdeathscreenshotupdated.png)
+![Mannerofdeathscreenshotpicture ](img/manneofdeathscreenshotupdated.png){: style="width:40%"}
 
 **Place of occurrence** of the external cause: specify the place where the external cause (e.g., accident, injury) occurred. This information is essential for accurately documenting the circumstances surrounding the death.
 
 **Fetal or Infant Death**: Fill in the needed information on multiple pregnancy, stillbirth specifying the number of hours survived if applicable, the birth weight, the number of completed weeks of pregnancy, the age of the mother and if the death was perinatal, the conditions of the mother that affected the fetous should be specified. 
 
-![fetalinfantdeathscreenshotpicture ](img/fetalinfantdeathscreenshot.png)
+![fetalinfantdeathscreenshotpicture ](img/fetalinfantdeathscreenshotupdated.png){: style="width:40%"}
 
 For women: 
 
@@ -46,7 +46,7 @@ For women:
 
 **Contribution of Pregnancy to Death**: Determine if the pregnancy played a role in the woman's death. 
 
-![pregnancyscreenshotpicture ](img/pregnancyscreenshotupdated.png)
+![pregnancyscreenshotpicture ](img/pregnancyscreenshotupdated.png){: style="width:40%"}
 
 To demonstrate the functionality of the DORIS web version, an **examples form** key provides a few examples to showcase how the web version operates. Users can refer to these examples to understand how to use the web version effectively.
 
@@ -58,7 +58,7 @@ To process the required Underlying Cause of Death (UCOD), users should simply cl
 
 Once the Underlying Cause of Death (UCOD)is selected, it will be presented in the **output** section which includes two distinct fields related to the **underlying cause of death.** The first field represents the single underlying cause of death that was selected based on the information provided and is highlighted in yellow to draw the attention of the users. Additionally, if available, the output section also includes a field for the **cluster underlying cause of death**. This field indicates the postcoordinated codes if applicable providing further context and details. 
 
-![outputdetailedexplanationsscreenshotpicture ](img/outputdetailedexplanationscreenshot.png)
+![outputdetailedexplanationsscreenshotpicture ](img/outputdetailedexplanationscreenshot.png){: style="width:40%"}
 
 Furthermore, within the output section, a report is provided to illustrate the steps and mortality rules that were applied in the selection of the underlying cause of death. 
 The report includes a **warnings** field, which flags any inconsistencies in the reported information or suggests the need for manual verification. 
