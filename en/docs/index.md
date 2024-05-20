@@ -11,6 +11,8 @@
 
 **DORIS** offers multiple options for its usage, providing flexibility and convenience to users. It can be used as a web application or as a standalone application with a user interface that can be installed on any computer.
 
+**DORIS** supports ten ICD-11 languages, including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru), [Spanish](https://icd.who.int/doris/es), [Turkish](https://icd.who.int/doris/tr), and [Uzbek](https://icd.who.int/doris/uz)
+
   - **DORIS Web Version** is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for cause of death selection. The web version can be accessed [here](https://icd.who.int/doris/workspace/en)
 
   > [More information on the web version](doris-web.md)
