@@ -32,6 +32,7 @@ nav:
     - Web Version: 
         - Doris Web: 'doris-web.md'
     - DORIS Desktop: 
+        - Release Notes: 'doris-desktop-release-notes.md'
         - Download and Installation: 'doris-desktop-download-installation.md'
         - Using DORIS Desktop: 'doris-desktop-user-guide.md'
         - Supported File Formats: 'supported-file-formats.md'
