@@ -8,7 +8,8 @@ The DORIS Desktop software can be downloaded from the following link:
 	- Download link for Mac x64: [DorisDesktop-1.1.6_x64.pkg](https://icdcdn.who.int/doris/DorisDesktop-1.1.6_x64.pkg)
 	- Download link for Mac arm64: [DorisDesktop-1.1.6_arm64.pkg](https://icdcdn.who.int/doris/DorisDesktop-1.1.6_arm64.pkg)
 
-	If you're interested in using the Windows ARM64 version of our software, please reach out to us at **icd@who.int**. We'd be happy to assist you!
+
+	If you're interested in using the Windows ARM64 version of the software, please reach out to us at **icd@who.int**
 
 
 
