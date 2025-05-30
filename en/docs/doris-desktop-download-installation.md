@@ -3,10 +3,10 @@
 The DORIS Desktop software can be downloaded from the following link:
 
 - Version 1.1 
-	- Download link for Windows x64: [DorisDesktop_1.1.6.0_x64.msix](https://icdcdn.blob.core.windows.net/doris/DorisDesktop_1.1.6.0_x64.msix)
+	- Download link for Windows x64: [DorisDesktop_1.1.6.0_x64.msix](https://icdcdn.who.int/doris/DorisDesktop_1.1.6.0_x64.msix)
 	
-	- Download link for Mac x64: [DorisDesktop-1.1.6_x64.pkg](https://icdcdn.blob.core.windows.net/doris/DorisDesktop-1.1.6_x64.pkg)
-	- Download link for Mac arm64: [DorisDesktop-1.1.6_arm64.pkg](https://icdcdn.blob.core.windows.net/doris/DorisDesktop-1.1.6_arm64.pkg)
+	- Download link for Mac x64: [DorisDesktop-1.1.6_x64.pkg](https://icdcdn.who.int/doris/DorisDesktop-1.1.6_x64.pkg)
+	- Download link for Mac arm64: [DorisDesktop-1.1.6_arm64.pkg](https://icdcdn.who.int/doris/DorisDesktop-1.1.6_arm64.pkg)
 
 	Please contact us from `icd@who.int` if you're interested in using Windows arm64 version of the software 
 
