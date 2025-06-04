@@ -1,8 +1,9 @@
 # DORIS Web Version
 
-DORIS Web Version is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for cause of death selection. The web version can be accessed [here](https://icd.who.int/doris/workspace/en). 
+DORIS Web Version is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for automated cause of death selection. The web version can be accessed [here](https://icd.who.int/doris/workspace/en). 
 
-It is available in the 10 officially released ICD-11 languages, including including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru), [Spanish](https://icd.who.int/doris/es), [Turkish](https://icd.who.int/doris/tr), and [Uzbek](https://icd.who.int/doris/uz). 
+It supports the 13 officially released ICD-11 languages, including including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Kazakh](https://icd.who.int/doris/kk), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru),
+[Slovak](https://icd.who.int/doris/sk), [Spanish](https://icd.who.int/doris/es),[Swedish](https://icd.who.int/doris/sv), [Turkish](https://icd.who.int/doris/tr), and [Uzbek](https://icd.who.int/doris/uz). 
 
 To switch between languages use the language key at the top right corner of the sreen. 
 
