@@ -73,7 +73,7 @@ The DORIS tool provides four complementary visualization modes to support review
 
 **Tabular Report:** This interactive visualization displays the steps for UCOD selection in a tabular format. Clicking on the rows allows to follow the steps one after the other from top to bottom and accordingly the rules applied will be highlighted on the certificate
 
-![Tabularreportview](img/Tabulareportview.png){: style="width:40%"}
+![Tabularreportview](img/Tabularreportview.png){: style="width:40%"}
 
 **Rule Flow Report:**  This visualization displays the report as a sequence of applied rules ultimately leading to the selected UCOD.
 
