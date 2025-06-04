@@ -63,12 +63,23 @@ It is possible to fill in and process several Medical Certificates of Cause of D
 
 Once the Underlying Cause of Death (UCOD)is selected, it will be presented in the **output** section which includes two distinct fields related to the **underlying cause of death.** The first field represents the single underlying cause of death that was selected based on the information provided and is highlighted in yellow to draw the attention of the users. Additionally, if available, the output section also includes a field for the **cluster underlying cause of death**. This field indicates the postcoordinated codes if applicable providing further context and details. 
 
-![outputdetailedexplanationsscreenshotpicture ](img/outputdetailedexplanationscreenshot.png){: style="width:40%"}
+![outputdetailedexplanationsscreenshotpicture](img/outputdetailedexplanationscreenshot.png){: style="width:40%"}
 
-Furthermore, within the output section, a textual report is provided to illustrate the steps and mortality rules that were applied in the selection of the underlying cause of death. 
-The report includes a **warnings** field, which flags any inconsistencies in the reported information or suggests the need for manual verification. 
+The DORIS tool provides four complementary visualization modes to support review, validation, and training:
 
-Following the warnings, a concise report outlines the main steps that were applied. For a more detailed understanding, a full report is also included in the output section. This comprehensive report provides a thorough explanation of the sequence followed, along with detailed information about the mortality rules and steps that were applied or not during the selection of the underlying cause of death.
+**Textual Report**: This visualization illustrates the steps and mortality rules that were applied in the selection of the underlying cause of death. The report includes a **warnings** field, which flags any inconsistencies in the reported information or suggests the need for manual verification. The warnings are displayed in yellow. Following the warnings, a concise report outlines the main steps that were applied. For a more detailed understanding, a full report is also included in the output section. This comprehensive report provides a thorough explanation of the sequence followed, along with detailed information about the mortality rules and steps that were applied or not during the selection of the underlying cause of death.
 
-The output includes additional three distinct visualizations, Tabular, and Rule Flow and Rule Sequence reports—which together allow users to view the certificate with the selected underlying cause, trace each rule applied step-by-step, and follow the full logic sequence that led to the final selection.
+![Textualreportview](img/Textualreportview.png){: style="width:40%"}
+
+**Tabular Report:** This interactive visualization displays the steps for UCOD selection in a tabular format. Clicking on the rows allows to follow the steps one after the other from top to bottom and accordingly the rules applied will be highlighted on the certificate
+
+![Tabularreportview](img/Tabulareportview.png){: style="width:40%"}
+
+**Rule Flow Report:**  This visualization displays the report as a sequence of applied rules ultimately leading to the selected UCOD.
+
+![Ruleflowreportview](img/Ruleflowreportview.png){: style="width:40%"}
+
+**Rule Sequence Report:** This visualization displays the report as a horizontal sequence. The specific rules applied at each step are listed below showing the order in which the rules were applied from top to bottom.
+
+![Rulesequencereportview](img/Rulesequencereportview.png){: style="width:40%"}
 
