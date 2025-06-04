@@ -92,11 +92,30 @@ Closing full-view mode is done by clicking the `X` at the top left corner.
 
 It is also possible to process all edited certificates by using the `Process` menu after closing the full view.
 
+### Report vizualisation for Individual Certificates
+
+The DORIS tool provides four complementary visualization modes to support review, validation, and training:
+
+**Textual Report**: This visualization illustrates the steps and mortality rules that were applied in the selection of the underlying cause of death. The report includes a **warnings** field, which flags any inconsistencies in the reported information or suggests the need for manual verification. The warnings are displayed in yellow. Following the warnings, a concise report outlines the main steps that were applied. For a more detailed understanding, a full report is also included in the output section. This comprehensive report provides a thorough explanation of the sequence followed, along with detailed information about the mortality rules and steps that were applied or not during the selection of the underlying cause of death.
+
+![Textualreportview](img/Textualreportview.png){: style="width:40%"}
+
+**Tabular Report:** This interactive visualization displays the steps for UCOD selection in a tabular format. Clicking on the rows allows to follow the steps one after the other from top to bottom and accordingly the rules applied will be highlighted on the certificate
+
+![Tabularreportview](img/Tabularreportview.png){: style="width:40%"}
+
+**Rule Flow Report:**  This visualization displays the report as a sequence of applied rules ultimately leading to the selected UCOD.
+
+![Ruleflowreportview](img/Ruleflowreportview.png){: style="width:40%"}
+
+**Rule Sequence Report:** This visualization displays the report as a horizontal sequence. The specific rules applied at each step are listed below showing the order in which the rules were applied from top to bottom.
+
+![Rulesequencereportview](img/Rulesequencereportview.png){: style="width:40%"}
 
 ## Settings
 ### Changing Language
 Changing the language of the tool is possible by clicking the `Settings`/`Change Language` menu. Once clicked, the system will show the available languages in a new dialog.
-![Change Language](img/change-language.png){: style="width:50%"} 
+![Change Language](img/Changingthelanguage2025.png){: style="width:50%"} 
 The current language is shown in orange color and clicking on another language changes the language.
 
 ** IMPORTANT! ** Changing the language requires an Internet connection if the language that is selected has not been used before as the system needs to download the ICD in that language to enable text-to-code processing.
@@ -105,6 +124,8 @@ The system uses the language that is selected for 3 separate things:
 - The user interface of the tool switches to the selected language.
 - During import, if the certificates have textual diagnoses the language selected is used during the text-to-code processing.
 - During processing for underlying cause of death detection, the warning messages are provided in the selected language.
+
+** IMPORTANT! **  Changing the language is possible only before opening a database. When switching languages please close the application and retry before opening a database
 
 ### Changing ICD-11 Version
 By default, DORIS Desktop uses the latest released version of ICD-11.
