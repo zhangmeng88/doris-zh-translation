@@ -2,10 +2,10 @@
 
 DORIS Web Version is a web-based application accessible through a web browser. It applies the ICD mortality rules on individual death certificates for automated cause of death selection. The web version can be accessed [here](https://icd.who.int/doris/workspace/en). 
 
-It supports the 13 officially released ICD-11 languages, including including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Kazakh](https://icd.who.int/doris/kk), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru),
+It supports the 13 officially released ICD-11 languages, including [Arabic](https://icd.who.int/doris/ar), [Chinese](https://icd.who.int/doris/zh), [Czech](https://icd.who.int/doris/cs), [English](https://icd.who.int/doris/en), [French](https://icd.who.int/doris/fr), [Kazakh](https://icd.who.int/doris/kk), [Portuguese](https://icd.who.int/doris/pt), [Russian](https://icd.who.int/doris/ru),
  [Slovak](https://icd.who.int/doris/sk), [Spanish](https://icd.who.int/doris/es), [Swedish](https://icd.who.int/doris/sv), [Turkish](https://icd.who.int/doris/tr), and [Uzbek](https://icd.who.int/doris/uz). 
 
-To switch between languages use the language key at the top right corner of the sreen. 
+To switch between languages use the language key at the top right corner of the screen. 
 
 ![DORIS Web screenshot picture ](img/DORISwebjune25.png){: style="width:40%"}
 
@@ -61,7 +61,7 @@ It is possible to fill in and process several Medical Certificates of Cause of D
 
 **Output section** 
 
-Once the Underlying Cause of Death (UCOD)is selected, it will be presented in the **output** section which includes two distinct fields related to the **underlying cause of death.** The first field represents the single underlying cause of death that was selected based on the information provided and is highlighted in yellow to draw the attention of the users. Additionally, if available, the output section also includes a field for the **cluster underlying cause of death**. This field indicates the postcoordinated codes if applicable providing further context and details. 
+Once the Underlying Cause of Death (UCOD) is selected, it will be presented in the **output** section which includes two distinct fields related to the **underlying cause of death.** The first field represents the single underlying cause of death that was selected based on the information provided and is highlighted in yellow to draw the attention of the users. Additionally, if available, the output section also includes a field for the **cluster underlying cause of death**. This field indicates the postcoordinated codes if applicable providing further context and details. 
 
 ![outputdetailedexplanationsscreenshotpicture](img/outputdetailedexplanationscreenshot.png){: style="width:40%"}
 
