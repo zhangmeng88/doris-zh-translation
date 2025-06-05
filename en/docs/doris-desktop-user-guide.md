@@ -98,19 +98,19 @@ The DORIS tool provides four complementary visualization modes to support review
 
 **Textual Report**: This visualization illustrates the steps and mortality rules that were applied in the selection of the underlying cause of death. The report includes a **warnings** field, which flags any inconsistencies in the reported information or suggests the need for manual verification. The warnings are displayed in yellow. Following the warnings, a concise report outlines the main steps that were applied. For a more detailed understanding, a full report is also included in the output section. This comprehensive report provides a thorough explanation of the sequence followed, along with detailed information about the mortality rules and steps that were applied or not during the selection of the underlying cause of death.
 
-![Textualreportview](img/Textualreportview.png){: style="width:40%"}
+![Textualreportview](img/Textualreportdesktop.png){: style="width:40%"}
 
 **Tabular Report:** This interactive visualization displays the steps for UCOD selection in a tabular format. Clicking on the rows allows to follow the steps one after the other from top to bottom and accordingly the rules applied will be highlighted on the certificate
 
-![Tabularreportview](img/Tabularreportview.png){: style="width:40%"}
+![Tabularreportview](img/Tabularreportdesktop.png){: style="width:40%"}
 
 **Rule Flow Report:**  This visualization displays the report as a sequence of applied rules ultimately leading to the selected UCOD.
 
-![Ruleflowreportview](img/Ruleflowreportview.png){: style="width:40%"}
+![Ruleflowreportview](img/Ruleflowreportdesktop.png){: style="width:40%"}
 
 **Rule Sequence Report:** This visualization displays the report as a horizontal sequence. The specific rules applied at each step are listed below showing the order in which the rules were applied from top to bottom.
 
-![Rulesequencereportview](img/Rulesequencereportview.png){: style="width:40%"}
+![Rulesequencereportview](img/Rulesequencereportdesktop.png){: style="width:40%"}
 
 ## Settings
 ### Changing Language
