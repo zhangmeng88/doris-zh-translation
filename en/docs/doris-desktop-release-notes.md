@@ -8,10 +8,10 @@
               - **Rule Flow Report**: Displays a visual sequence of the applied rules leading to the selected UCOD.
               - **Rule Sequence Report**: Presents a horizontal timeline of applied rules, listing them in the order they were triggered.
     - **Improved Algorithm Accuracy**  
-      This release includes enhancements to the DORIS algorithm, improving **accuracy and consistency** in cause-of-death coding and reporting:
-              - Refined specificity for **infectious diseases, neoplasms, and injury-related conditions**.
-              - Improved logic for **HIV, tuberculosis, and substance intoxications**.
-              - Better handling of **external causes and injury-related deaths**.
+      This release includes enhancements to the DORIS algorithm, improving accuracy and consistency in cause-of-death coding and reporting.
+              - Refined specificity for infectious diseases, neoplasms, and injury-related conditions.
+              - Improved logic for HIV, tuberculosis, and substance intoxications.
+              - Better handling of external causes and injury-related deaths.
      - **macOS version now available**  
       Broadened compatibility for users operating on Apple systems.
        
