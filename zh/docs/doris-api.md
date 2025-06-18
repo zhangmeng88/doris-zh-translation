@@ -1,11 +1,10 @@
-# Using DORIS from ICD-API
+# 通过ICD-API使用DORIS
 
-## For Software Developers and System Integrators:
+## 面向软件开发者和系统集成商：
 
-It is possible to get access to the DORIS rule engine programmatically from the ICD-API. Currently, there is a prerelease of this system available.
+可通过ICD-API以编程方式访问DORIS规则引擎。目前该系统提供预发布版本。
 
 
-- [ICD-API Home page](https://icd.who.int/icdapi) and 
-- [ICD-API documentation](https://icd.who.int/docs/icd-api/DORISSupport/) contains more information on the ICD-API
-
-- [ICD-API Reference (Open API)](https://id.who.int/swagger/index.html) provides detailed explanations on the endpoints that the API supports including the `doris` endpoint 
+- [ICD-API主页](https://icd.who.int/icdapi) 与
+- [ICD-API文档](https://icd.who.int/docs/icd-api/DORISSupport/) 包含ICD-API的更多相关信息
+- [ICD-API 参考文档 (开放API)](https://id.who.int/swagger/index.html) 详细说明API支持的端点（包括`doris` 端点）
