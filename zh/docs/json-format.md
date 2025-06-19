@@ -1,44 +1,43 @@
 ﻿
-# Death Certificate Exchange Format
+# 死亡证明电子交换格式
 
-The main goal of this format is creation of a standard electronic representation for the [International form of medical certificate of cause of death](https://icdcdn.who.int/icd11referenceguide/en/html/index.html#international-form-of-medical-certificate-of-cause-of-death)
-
-
-The **death certificate** is defined as a *JSON* format. 
-
-[The json schema for a single death certificate can be found here](Annex_ElectronicDeathCertificateSchema.json) 
+此格式的核心目标是建立 [国际死亡医学证明书](https://icdcdn.who.int/icd11referenceguide/en/html/index.html#international-form-of-medical-certificate-of-cause-of-death) 的标准电子化表示规范
 
 
-## Overview
+**死亡证明书**采用*JSON*格式定义。
 
-In this document each field of the certificate is listed together with its description data type and allowed values. For some fields which can contain only specific 
-values we are specifying the mapping, where in the certificate the numeric need to be used. 
+[单份死亡证明的JSON模式文件](Annex_ElectronicDeathCertificateSchema.json) 
 
-i.e. when the possible values can be “yes”, “no” and “unknown” 
-we have the mapping:
-> - _no_ -> 0, 
-> - _yes_ -> 1, 
-> - _unknown_ -> 9. 
 
-We are using `\` to identify nested structures.
+## 概览
+
+在该文档中，证书的每个字段均附有描述、数据类型及允许值说明。针对仅允许特定取值的字段，我们特别规定了映射关系——证书中必须使用数字值表示。 
+
+即，当允许值为“是”、“否”和“未知”时，映射为：
+
+> - _否_ -> 0，
+> - _是_ -> 1，
+> - _未知_ -> 9。
+
+注：`\`用于标识嵌套结构。
 ```
 ```
 
-### Data types
+### 数据类型
 
-The following data types are used:
+使用以下数据类型
 
-| Type | Description |
+| 类型 | 描述 |
 | --- | --- |
-| `string` | Alphanumeric value insert between quotation marks `"`. |
-| `integer` | Numeric field, whole numbers allowed |
-| `boolean` | The values allowed are `true` and `false` |
-| `structure` | _json_ structure with other fields inside |
-| `array[type]` | A list of the specific type, in our format we are using only list of other structures. i.e. array of `[ {"name": "The name"}, {"name": "Other example name name"} ]` |
-| `date` | The date field used in the certificate is using the format defined in the [W3C](https://www.w3.org/TR/NOTE-datetime). The date value need to be insert between quotation marks `"`. |
-| `duration` | Durations define the amount of intervening time in a time interval used in the certificate for the interval field. The format is defined in the [ISO_8601](https://en.wikipedia.org/wiki/ISO_8601#Durations). The duration value need to be insert between quotation marks `"`.|
+| `string` | 包裹在引号`"`内的字母数字|
+| `integer` | 数值字段，仅允许整数|
+| `boolean` | 允许值为`true`和`false` |
+| `structure` | _json_ 结构，内含其他字段 |
+| `array[type]` | 特定类型的列表，本格式仅包含其他结构列表。即 `[ {"name": "The name"}, {"name": "Other example name name"} ]`数组 |
+| `date` | 证明书中的日期字段使用 [W3C](https://www.w3.org/TR/NOTE-datetime) 定义的格式。日期值需用`"`包裹. |
+| `duration` | 用于表示证明书中时间间隔字段的时间量。格式遵循 [ISO_8601](https://en.wikipedia.org/wiki/ISO_8601#Durations)。时间间隔值需用引号`"`包裹。|
 
-Example of date:
+日期样例：
 
 ```
     Year:
@@ -64,7 +63,7 @@ where:
      TZD  = time zone designator (Z or +hh:mm or -hh:mm)
 ```
 
-Example of duration:
+持续时间样例：
 
 ```
 The duration is represented by the format P[n]Y[n]M[n]DT[n]H[n]M[n]S, P[n]W or P<date>T<time>
@@ -94,7 +93,7 @@ Practical examples:
     "", "P" or "PT" is used for unknown interval.
 ```
 
-### Certificate Fields
+### 证明书字段
 
 
 | Attribute |  Type | Description |
