@@ -1,17 +1,17 @@
-# Download and Installation
+# 下载与安装
 
-The DORIS Desktop software can be downloaded from the following link:
+DORIS桌面版软件可通过以下链接下载：
 
-- Version 1.1 
-	- Download link for Windows x64: [DorisDesktop_1.1.6.0_x64.msix](https://icdcdn.who.int/doris/DorisDesktop_1.1.6.0_x64.msix)
+- 版本 1.1
+	- Windows x64 下载链接： [DorisDesktop_1.1.6.0_x64.msix](https://icdcdn.who.int/doris/DorisDesktop_1.1.6.0_x64.msix)
 	
-	- Download link for Mac x64: [DorisDesktop-1.1.6_x64.pkg](https://icdcdn.who.int/doris/DorisDesktop-1.1.6_x64.pkg)
-	- Download link for Mac arm64: [DorisDesktop-1.1.6_arm64.pkg](https://icdcdn.who.int/doris/DorisDesktop-1.1.6_arm64.pkg)
+	- Mac x64 下载链接： [DorisDesktop-1.1.6_x64.pkg](https://icdcdn.who.int/doris/DorisDesktop-1.1.6_x64.pkg)
+	- Mac arm64 下载链接： [DorisDesktop-1.1.6_arm64.pkg](https://icdcdn.who.int/doris/DorisDesktop-1.1.6_arm64.pkg)
 
 
-	If you're interested in using the Windows ARM64 version of the software, please reach out to us at **icd@who.int**
+	如需 Windows ARM64 版本，请联系邮箱 **icd@who.int**
 
 
 
-DORIS installation and launch is a quick and very simple process and involves double-clicking on the downloaded file and following the on-screen instructions. 
+DORIS 的安装与启动流程快速且简单：双击已下载的安装文件，根据屏幕指引完成操作。
 
