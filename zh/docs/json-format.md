@@ -1,5 +1,5 @@
 ﻿
-# 死亡证明电子交换格式
+# 死亡证明书电子交换格式
 
 此格式的核心目标是建立 [国际死亡医学证明书](https://icdcdn.who.int/icd11referenceguide/en/html/index.html#international-form-of-medical-certificate-of-cause-of-death) 的标准电子化表示规范
 
